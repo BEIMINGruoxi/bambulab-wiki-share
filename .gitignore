@@ -2,6 +2,9 @@
 scripts/cache/
 cache/
 
+# 解析中间产物（由 parse_zh.py 重新生成，35 MB）
+scripts/pages_raw.jsonl
+
 # 旧版产物备份
 markdown_backup_orig/
 backup/
