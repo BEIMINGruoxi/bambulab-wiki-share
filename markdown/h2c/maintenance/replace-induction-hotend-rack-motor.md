@@ -1,0 +1,155 @@
+---
+title: 更换 H2C 感应热端架电机
+url: https://wiki.bambulab.com/zh/h2c/maintenance/replace-induction-hotend-rack-motor
+category: H2C > 维护保养
+updated: 2026-08-28T06:32:29.840Z
+---
+
+### H2C 感应热端架电机
+
+用于驱动挂架升降的伺服电机。提供稳定可靠的力矩输出，并具备智能调节功能，能够在运动受阻或异常情况下自动调整力矩或触发警报（HMS），确保热端组件升降操作的安全性和精确性。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/012.png)
+
+### 何时更换
+
+- 电机损坏
+- 拓竹技术支持建议更换
+
+### 工具和材料
+
+- H2.0螺丝刀
+- 镊子
+- 螺丝盒（非必要）
+
+本更换流程涉及的螺丝数量较多，为避免螺丝丢失或混淆，建议提前准备螺丝收纳盒进行分类，便于后续取用。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/001.jpg)
+
+### 安全提示
+
+> 重要提醒 ！
+>
+>
+>
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前， 请关闭打印机电源并断开电源连接 ，以避免发生电路短路从而引起额外的电子设备损坏和安全隐患。
+>
+>
+>
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+>
+>
+>
+> 如果您对本指南有任何疑问，请 [点击提交服务工单](https://bambulab.cn/zh/sign-in?to=%2Fmy%2Fsupport%2Ftickets) ，我们将及时回复并为您提供所需的帮助。
+
+### 视频指南
+
+### 移除旧的 感应热端架控电机
+
+#### 1. 移除感应热端拉柄解锁组件
+
+拔掉感应热端拉柄解锁组件连接线，使用H2.0内六角扳手移除三颗固定螺丝，取下移除感应热端拉柄解锁组件。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+详细更换步骤可参考wiki： [感应热端拉柄解锁组件更换指南](https://wiki.bambulab.com/zh/h2c/maintenance/replace-induction-hotend-latch-actuator)
+
+#### 2. 取下感应热端架组件
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+详细更换步骤可参考wiki： [感应热端架组件更换指南](https://wiki.bambulab.com/zh/h2c/maintenance/replace-induction-hotend-rack-assembly)
+
+#### 3. 移除感应热端架电机
+
+使用H2.0内六角螺丝刀移除四颗控制板保护盖螺丝，取下控制板保护盖。
+
+![55.png](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/55.png)
+
+移除感应热端架控制板上电机的连接线。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/013.png)
+
+使用H2.0内六角螺丝刀移除热端架电机底部的一颗张紧螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/023.png)
+
+使用H2.0内六角螺丝刀移除热端架电机的三颗固定螺丝，取下热端架电机组件。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+### 安装新的感应热端架电机
+
+#### 1. 安装电机并调整皮带松紧
+
+为了防止运输过程中线缆折断，需要为新的电机组装排线，如下图所示插入排线锁紧卡扣，安装电机后盖。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+将感应热端架电机的FPC传过走线槽，将电机组件放置在安装平面上，同步带套在同步带轮上。
+
+安装电机三颗固定螺丝不要完全锁紧，确保电机可以轻微晃动。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/019.png)
+
+接下来调节张紧螺丝，松紧该螺丝同时皮带会同步张紧，可以用手指感受皮带绷紧的力度。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+张紧完成后重新锁紧电机三颗螺丝即完成电机和皮带的张紧。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/020.png)
+
+接下来连接感应热端架控制板上电机的连接线。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/014.png)
+
+安装控制板保护盖，使用H2.0内六角螺丝刀安装四颗控制板保护盖螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/008.png)
+
+#### 2. 安装感应热端架组件
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+详细更换步骤可参考wiki： [感应热端架组件更换指南](https://wiki.bambulab.com/zh/h2c/maintenance/replace-induction-hotend-rack-assembly)
+
+#### 3. 安装感应热端拉柄解锁组件
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+> 锁紧螺丝的时候请注意避开连接线缆，避免过度挤压影响通讯。
+
+详细更换步骤可参考wiki： [感应热端拉柄解锁组件更换指南](https://wiki.bambulab.com/zh/h2c/maintenance/replace-induction-hotend-latch-actuator)
+
+### 感应热端架组件校准
+
+重新感应热端架组件后，需及时对该组件执行校准操作，确保打印机运行精度，具体步骤如下：
+
+1. 操作打印机屏幕，点击左侧栏设置按钮 → 进入“校准”界面，选择 “感应热端架组件初始化”。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 点击“开始”按钮，感应热端架将自动执行预设初始化流程。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/h2c/maintenance/replace-induction-hotend-rack-motor/011.png)
+
+> 异常处理说明： 若初始化过程中出现报错或执行失败，大概率是感应热端架组件安装偏差超出允许范围。请参照 [《H2C 感应热端架手动位置标定指引》](https://wiki.bambulab.com/zh/h2c/maintenance/hotend-rack-manual-position-calibration) ，重新进行手动位置标定，完成后可再次尝试初始化操作。
+
+### 如何验证成功
+
+连接电源并打开打印机，检查是否可以正常取用和放置感应热端组件。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

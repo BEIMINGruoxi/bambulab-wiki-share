@@ -1,0 +1,233 @@
+---
+title: P2S 挤出机堵塞清理指南
+url: https://wiki.bambulab.com/zh/p2s/maintenance/extruder-cleaning-guide
+category: P2S > P2S 机器维护
+updated: 2026-08-28T06:29:31.765Z
+---
+
+挤出机堵塞通常是因为热蠕变（ [什么是热蠕变？ | Bambu Lab Wiki](https://wiki.bambulab.com/zh/filament-acc/filament/heat-creep) ）导致的，出现该情况后打印机将无法挤出耗材。本文针对于这类情况提供了堵塞后清理的方法。下图为堵塞位置示意：
+
+| 〔耗材卡在齿轮之间示意图〕 | 〔卡丝细节图〕 |
+| --- | --- |
+
+#### 所需工具和材料
+
+- H2.0六角扳手
+- H1.5六角扳手
+- 剪刀或者剪钳
+- 平头镊子
+- 此维护预计需要15分钟时间
+
+> 重要提醒 ！
+>
+>
+>
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生电路短路从而引起额外的电子设备损坏和安全隐患。
+>
+>
+>
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+>
+>
+>
+> 如果您对本指南有任何疑问，请 [点击这里提交工单](https://bambulab.cn/zh/sign-in?to=%2Fmy%2Fsupport%2Ftickets) ，我们将及时回复并为您提供所需的帮助。
+
+### 挤出机堵塞清理步骤
+
+> **安装提醒：**
+如果您想在不拆除工具头中框的情况下进行清理，请将霍尔开关板从挤出机上移除，不要断开霍尔开关板的排线连接(上图)；
+如果您想断开拆除霍尔开关板的连接排线，请务必在拆除工具头中框后操作（下图）；
+未拆除工具头中框的情况下断开和连接排线的操作，会有很大的损坏连接器和排线或出现排线安装不到位的风险。
+![keep_the_filament_sensor_connected.png](/p2s/maintenance/extruder_unit/keep_the_filament_sensor_connected.png =450x)
+> ![dipsconnect_fpc_007.png](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder_unit/dipsconnect_fpc_007.png =450x)
+{.is-warning}
+
+#### 1. 拆卸工具头前盖
+
+打开工具头前盖，按压连接器锁扣后拔出连接插头，取下工具头前盖。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-6.png)
+
+#### 2. 断开热端-挤出机之间的耗材
+
+按压切刀刀柄确保热端-挤出机之间的耗材被切断。
+
+![output.webp](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/output.webp)
+
+#### 3. 拔出工具头上料管
+
+回到工具头处按压气动接头，并尝试拔出工具头上料管。
+
+![baguan.webp](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/baguan2.webp)
+
+如果此时无法拔出工具头料管，则需要松开打印机背部的料管，拉出一小段长度耗材，使用剪钳剪断。
+
+![baguan.webp](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/baguan.webp)
+
+![123123.jpg](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/period-maintenance/141414.jpg)
+
+此时再将工具头上料管拔出，并使用剪钳剪断耗材。
+
+![123123.jpg](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/period-maintenance/123123.jpg)
+
+#### 3.1 轻度堵塞清理
+
+1. 移除喷嘴（图示①）；
+2. 拧下一颗螺丝，取下出料口压块（图示②）；
+3. 检查组件内部是否有露在外面、能直接取出的耗材（图示 ③）；
+
+| 〔Edit preset and Edit button〕 | 〔Delete icon and confirmation〕 |
+| --- | --- |
+
+1. 使用钳子顺着下图所示方向，小心地抽出耗材。操作时用力要均匀、轻柔，避免耗材在抽出过程中断裂在挤出机里面。若无法抽出或抽出失败，请继续下一步。
+
+![pull_out_the_filament.png](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/pull_out_the_filament.png)
+
+#### 4. 拆卸挤出机
+
+拧下切刀螺丝后将切刀刀柄旋转至如下位置：
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image.png)
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-1.png)
+
+使用平头镊子撬开排线座盖。
+
+> 请勿使用较尖锐的工具，避免划破排线。
+
+![3月16日.webp](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/3%E6%9C%8816%E6%97%A5.webp)
+
+拧下挤出机4颗螺丝（1、2、3、4号）
+
+![挤出机螺丝2.jpg](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/%E6%8C%A4%E5%87%BA%E6%9C%BA%E8%9E%BA%E4%B8%9D2.jpg)
+
+缓慢取下挤出机组件。
+
+> 若难以取下挤出机，可能是因为挤出机与喷嘴连接处有耗材堵塞，可以先取出喷嘴再取下挤出机。
+
+![1.webp](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/1.webp)
+
+> ❗ 注意： 取下时，挤出机组件内侧的小轴承可能会掉落或松脱，请缓慢操作，并妥善保管，避免丢失。
+>
+>
+>
+> | 〔图片〕 | 〔图片〕 |
+> | --- | --- |
+
+#### 5. 清理内部堵塞耗材
+
+拧松耗材传感器的两个固定螺丝。
+
+![hall.png](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/hall.png)
+
+取下耗材传感器。
+
+![hall1.png](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/hall1.png)
+
+拧出该螺丝并小心存放。
+
+![齿轮压块螺丝.jpg](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/%E9%BD%BF%E8%BD%AE%E5%8E%8B%E5%9D%97%E8%9E%BA%E4%B8%9D.jpg)
+
+从挤出机上取下黄色的挤出主动轮。
+
+![齿轮.jpg](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/%E9%BD%BF%E8%BD%AE.jpg)
+
+> 提示：
+>
+>
+>
+> 当耗材卡在挤出机的 主动轮 与 从动轮 之间时，可能无法从正面直接取出主动轮。
+>  如无法直接取出，请从 主动轮背面 轻敲轴心将其顶出。敲击位置如下：
+>
+>
+>
+> ![主动轮背面敲击位置](https://wiki.bambulab.com/p2s/maintenance/out_2.jpg)
+>
+>
+>
+> 敲出过程如下：
+>
+>
+>
+> ![主动轮敲出过程演示](https://wiki.bambulab.com/p2s/maintenance/out.webp)
+
+从挤出机前盖里取出压紧块、挤出从动轮等配件。
+
+![压块.jpg](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/%E5%8E%8B%E5%9D%97.jpg)
+
+![齿轮2.jpg](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/%E9%BD%BF%E8%BD%AE2.jpg)
+
+拆开后取出堵塞的耗材。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/007.jpg)
+
+#### 6. 安装挤出机
+
+将挤出从动轮安装到挤出前盖上。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-7.png)
+
+将弹簧和金属端盖安装到压紧块里，贴着挤出从动轮，将压紧块安装到挤出前盖。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-8.png)
+
+装上挤出主动轮组件，锁紧1颗螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-9.png)
+
+将银色轴承装入工具头下图标注的位置。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+![install_bearing.webp](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/install_bearing.webp)
+
+安装耗材传感器的排线。
+
+![5.webp](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/5.webp)
+
+安装挤出机。
+
+> 注意请勿用力拉扯耗材传感器，避免排线破裂
+
+![6.webp](https://wiki.bambulab.com/p2s/maintenance/extruder-cleaning-guide/6.webp)
+
+> 安装注意事项：
+> 固定霍尔传感器时，需使用黑色 BT2-5 规格螺丝。安装前请务必确认螺丝型号，尤其注意检查螺丝长度。若螺丝过长，拧入后可能损坏传感器组件，进而导致检测功能异常，影响设备正常运行。
+>
+>
+> ![screw_for_filament_sensor.png](https://wiki.bambulab.com/p2s/maintenance/replace-extruder-components/screw_for_filament_sensor.png)
+
+扣上挤出机并锁紧6个螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-10.png)
+
+#### 7. 安装切刀
+
+沿着挤出机切刀刀槽的位置，将切刀滑进挤出机。
+
+![cutter_slides_in_place_004.png](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/replace_cutter_lever/cutter_slides_in_place_004.png)
+
+用内六角扳手锁紧刀柄螺丝。
+
+![cutter_lever_screw_001.png](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/replace_cutter_lever/cutter_lever_screw_001.png)
+
+#### 8. 安装工具头前盖
+
+将工具头前盖电缆连接到挤出接口板的连接器上。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-11.png)
+
+合上工具头前盖组件。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/extruder-cleaning-guide/image-12.png)
+
+### 如何验证
+
+启动打印机，完成一次上料和退料的操作，如果喷嘴能够正常挤出耗材并且没有异响，则说明挤出机已经正确的疏通了。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

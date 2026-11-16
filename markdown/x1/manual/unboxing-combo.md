@@ -1,0 +1,114 @@
+---
+title: 开箱 X1C Combo
+url: https://wiki.bambulab.com/zh/x1/manual/unboxing-combo
+category: X1 系列 > 用户手册
+updated: 2026-08-28T04:25:20.657Z
+---
+
+### 开箱 X1C Combo
+
+欢迎您体验开箱 Bambu Lab X1C Combo。
+
+组装视频:
+
+建议您在打印机开箱前浏览完整视频，确保顺畅的开箱体验。
+
+快速开箱指南: [https://bambulab.com/en/support/documentation](https://bambulab.com/en/support/documentation)
+
+### 第 1 步 - 拆箱和取出
+
+如下图所示，使用塑料袋左右两侧的拉手从纸箱中取出打印机，将打印机放置在平坦的桌面上。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-1-remove-printer.png)
+
+### 第 2 步 - 移除保护贴纸
+
+从打印机上取下塑料包装膜和绿色贴纸。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-2-remove-stickers.png)
+
+### 第 3 步 - 移除保护泡沫
+
+打开顶部玻璃盖，移除用于在运输过程中保护 AMS 附件安全的海绵。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-3-remove-top-glass-cover.png)
+
+### 第 4 步 - 取出配件
+
+取出包含 X1C Combo 的所有配件的纸盒。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-4-remove-accessory-box.png)
+
+##### 配件盒零件清单
+
+- 1x 触摸屏
+- 1x 外置耗材支架
+- 1x 备用热端
+- 2x 喷嘴擦拭垫
+- 1x 电源线
+- 1x 疏通销工具
+- 1x 六角扳手 H1.5
+- 1x 六角扳手 H2
+- 1x 打印面板固体胶
+- 1x 导热油脂
+- 1x Bambu 刮板
+
+### 第 5 步- 拆卸 AMS 固定螺丝
+
+打开前玻璃门，卸下在运输过程中用于固定 AMS 的两个螺丝。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-5-remove-ams-screws.png)
+
+~^Credit: RuiRaptor^~
+
+### 第 6 步 - 取出 AMS
+
+小心地将 AMS 从打印机中取出。 您可能需要稍微用力将其从塑料支架中提起。 不用担心，如果您在上一步中已经卸下螺丝，就不会对AMS产生破坏。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-6-remove-ams-from-inside-3dprinter.png)
+
+### 第 7 步 - 移除挤出机的纸板及废料口的保护泡沫
+
+移除挤出机周围的保护垫，取出废料口的白色泡沫保护块。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-7-remove-cardboard-protector-from-extruder.png)
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-7-remove-foam-from-purge-box.png)
+
+### 第 8 步 - 拆卸热床固定螺丝
+
+打开前玻璃门，卸下固定热床的三个螺钉。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-8-remove-screws-holding-the-bed-in-place.png)
+
+### 第 9 步 - 连接触摸屏
+
+小心地将带状软排线连接到触摸屏。 您可能需要稍微拉一下软排线，请小心操作，避免损坏。插入软排线时，请注意安装方向正确并尽量保持竖直插入， 如果您需要拆除它，请确保按下两侧按钮以释放金属闩锁。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-9-connect-ribbon-cable-to-touchscreen.png)
+
+### 第 10 步 - 连接 PTFE 管和电缆
+
+最后，您可以将 AMS 放在打印机顶部，并将 PTFE 管和电缆连接到机器上，并启动打印机，开始初始自动校准过程。
+
+> 注意 ：请将干燥剂从密封的透明塑料袋中取出后，再放入AMS中。
+
+![图片](https://wiki.bambulab.com/x1/manual/unboxing-x1/step-10-connect-ptfe-and-cables.png)
+
+### 第 11 步 - 放置废料盒
+
+开始打印前，推荐准备一个盒子放置于 打印机背面的废料滑梯下方 ，用于收集打印过程滑出的废料，保持环境整洁。
+
+您可以打印一个 [废料盒](https://makerworld.com.cn/zh/search/models?keyword=X1%E5%BA%9F%E6%96%99%E7%9B%92) ，也可以使用耗材包装盒或其他容器来接废料。
+
+下图为 P1S 打印机放置示例。
+
+![purge_container_placement_p1s_example.png](https://wiki.bambulab.com/p1/manual/p1s-unboxing/purge_container_placement_p1s_example.png)
+
+接下来，请参考 [首次使用](https://wiki.bambulab.com/zh/x1/manual/setup-for-first-print) 进行首次打印。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

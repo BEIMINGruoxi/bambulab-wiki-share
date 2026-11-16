@@ -1,0 +1,144 @@
+---
+title: AMS 2 Pro 进退料失败故障排查
+url: https://wiki.bambulab.com/zh/ams-2-pro/troubleshooting/loading-unloading-failure
+category: AMS 2 Pro > 故障排除
+updated: 2026-09-30T12:55:46.184Z
+---
+
+本文介绍了 AMS 2 Pro 常见的进退料故障的排查方法。当您在打印机的过程中遇到了进退料失败的问题，您可以根据报错信息以及故障现象来参考本文进行故障排查。
+
+> 建议您先了解 [AMS 2 Pro 工作流程和功能介绍](https://wiki.bambulab.com/zh/ams-2-pro/manual/setup-and-printting) ，再根据本文进行故障排查。
+
+### 预上料异常
+
+在 AMS 2 Pro 空闲时插入耗材丝，会进行预上料工作。上下料器会把耗材送入五通组件，待五通组件的传感器检测到耗材后再拉回。如果预上料过程存在异常，则有以下几种可能性：
+
+#### 上下料传感器异常
+
+##### 现象
+
+耗材插入后没有自动送入动作且指示灯熄灭，或耗材未插入时指示灯常亮。
+
+##### 故障排查
+
+请参考 [AMS 2 Pro 上下料组件堵塞清理](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/filament-funnel-cleaning) 检查磁铁是否被磨出凹槽，以及检查上下料组件中是否存在堵塞。
+
+- 若磁铁磨损，则需要 [更换新的上下料组件](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-feeder-unit) 。
+- 若存在堵塞，取出堵塞物后可重新插入耗材测试，故障依旧请联系客户支持团队。
+
+![图片](https://wiki.bambulab.com/ams-2-pro/maintenance/replace-the-feed-funnel-assy/%E7%A3%A8%E6%8D%9Fzh.png)
+
+#### 上下料电机异常
+
+耗材插入 AMS 2 Pro 后，上下料电机和齿轮将会开始转动，若电机并没有任何转动迹象，请参考 [更换上下料组件](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-feeder-unit) 重新安装上下料组件线缆，若故障依旧则需要更换新的上下料组件。
+
+![12.webp](https://wiki.bambulab.com/ams-2-pro/troubleshooting/loading-unloading-failure/12.webp)
+
+#### 五通传感器异常
+
+取下五通组件上该槽位对应的料管，并插入一截耗材，观察屏幕上是否有图标变化。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+1. 若 AMS 中线条变粗，则故障和料管或上下料组件有关。
+
+重新安装该槽位料管，并往里挤压一次，确保料管准确插入气动接头中。
+
+![图片](https://wiki.bambulab.com/ams-2-pro/maintenance/disassembly-and-assembly/image-11.png)
+
+若故障依旧则需要 [更换上下料组件](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-feeder-unit) 。
+
+1. 若没有图标变化，则该槽位的传感器可能存在故障，请参考重新连接传感器线缆后再次验证，若故障依旧则需要 [更换五通组件](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-internal-hub-unit) 。
+
+## RFID 读取失败
+
+适配 AMS 进退料的耗材都会有 RFID 芯片，这类耗材放入 AMS 后设备将自动读取耗材信息，当耗材信息读取失败时，请进行该项排查。
+
+![](https://wiki.bambulab.com/h2/manual/ams2pro/image-1.png =800x)
+
+### RFID 芯片异常
+请尝试装入其他带有 RFID 芯片的耗材，若其他耗材在该槽位上能够实现读取，则说明 AMS 2 Pro 功能正常，耗材的芯片可能故障，可手动设置耗材信息。
+
+### RFID 线圈异常
+左侧线圈负责 1/2 槽位芯片读取，右侧线圈负责 3/4 槽位芯片读取。若读取过程出现一下情况，则为线圈存在异常。
+
+- 该卷耗材在左侧能够读取，而在右侧无法读取。（反之亦然）
+- 多卷耗材均无法被读取出耗材信息。
+
+#### 排查方法
+
+检查线圈的插头是否脱落、受损，然后重新安装一次插头。
+
+![pixpin_2026-06-15_17-43-09.jpg](/ams-2-pro/troubleshooting/loading-unloading-failure/pixpin_2026-06-15_17-43-09.jpg =800x)
+
+复原设备后重新读取耗材信息。
+
+1. 多卷耗材依然无法读取，建议[更换 AMS 2 Pro 下盖组件](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-top-lid-bottom-cover)。
+
+> 以"该卷耗材在左侧能够读取，而在右侧无法读取"为例。
+{.is-info}
+2. 左侧变为无法读取，右侧能够读取，需要[更换 AMS 2 Pro 下盖组件](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-top-lid-bottom-cover)。
+3. 左侧能够读取，右侧依旧无法读取，需要[更换 AMS 2 Pro 主板](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-mainboard)。
+
+### 进料失败
+
+> 进退料失败可根据报错内容进行检查，本文以 P2S 为例，其他机型可在主页搜索相关教程。
+
+#### 耗材送出 AMS 2 Pro 失败：
+
+请抽出该槽位耗材，观察耗材上是否有磨损痕迹，剪断这截耗材后重新进料。若故障依旧可更换其他耗材尝试。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+若多卷耗材都出现该情况，请参考以下教程，清理五通组件的滚花齿，并确保里程轮转动顺畅不卡涩。
+
+| AMS 型号 | 里程轮位置 | 相关教程 |
+| --- | --- | --- |
+| AMS 2 Pro | 〔pixpin_2026-06-12_17-08-04.jpg〕 | 清理教程 |
+
+若五通组件外观正常，但耗材依然无法送出 AMS，则需要 [更换新的五通组件](https://wiki.bambulab.com/zh/ams-2-pro/maintenance/replace-internal-hub-unit) 。
+
+#### 耗材送往挤出机失败：
+
+观察耗材送出后的运输情况，根据最后卡住的位置进行检查。
+
+1. 若耗材卡在 AMS - 缓冲器 之间，请检查该料管是否弯折、变形，建议更换新的料管。
+
+![ams.jpg](https://wiki.bambulab.com/ams-2-pro/troubleshooting/loading-unloading-failure/ams.jpg)
+
+1. 若耗材卡在 缓冲器 - 工具头 之间，请检查该处料管是否弯折、变形，建议更换新的料管。
+
+![进料口.jpg](https://wiki.bambulab.com/ams-2-pro/troubleshooting/loading-unloading-failure/%E8%BF%9B%E6%96%99%E5%8F%A3.jpg)
+
+> 以上两种情况若更换新料管后依然卡在相同位置，请 [检查五通组件](https://wiki.bambulab.com/zh/ams-2-pro/troubleshooting/loading-unloading-failure#filament-hub-1) 。
+
+1. 若耗材已经送入了工具头中，则说明工具头中的耗材传感器可能存在故障，请参考 [霍尔开关故障排查指南](https://wiki.bambulab.com/zh/x1/troubleshooting/filament-sensor-test) 进行排查。
+
+#### 耗材挤出异常：
+
+根据 [P2S 堵塞排查](https://wiki.bambulab.com/zh/p2s/troubleshooting/clogging) 确定挤出机、喷嘴的堵塞情况，并完成疏通清理。
+
+清理完成后可尝试再次使用 AMS 进料，若故障依旧，请取下 AMS，通过外挂料盘发起打印。
+
+- 若外挂料盘打印成品质量合格，则 [检查五通组件](https://wiki.bambulab.com/zh/ams-2-pro/troubleshooting/loading-unloading-failure#filament-hub-1) 。
+- 若外挂料盘打印成品质量出现挤出不足或无法挤出情况，建议更换新的喷嘴。
+
+### 退料失败
+
+分别断开打印机进料口、AMS 2 Pro 背后的料管，裁断耗材后手动拉扯余料，判断失败原因位置。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+若耗材无法从 AMS 2 Pro 中抽出，则是 AMS 2 Pro 内部存在堵塞，需 [检查五通组件](https://wiki.bambulab.com/zh/ams-2-pro/troubleshooting/loading-unloading-failure#filament-hub-1) 。
+
+若耗材无法从打印机进料口中抽出，则可能是切刀磨损后无法切断耗材，或挤出机存在堵塞，可参考 [P2S 挤出机堵塞清理指南](https://wiki.bambulab.com/zh/p2s/maintenance/extruder-cleaning-guide) 清理挤出机并更换新的切刀刀片。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

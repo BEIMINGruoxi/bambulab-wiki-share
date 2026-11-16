@@ -1,0 +1,89 @@
+---
+title: 更换 X2D 喷嘴偏移校准器
+url: https://wiki.bambulab.com/zh/x2d/maintenance/replace-nozzle-offset-calibration-sensor
+category: X2D > 维护保养
+updated: 2026-08-28T06:38:58.708Z
+---
+
+### 喷嘴偏移校准传感器
+
+喷嘴偏移校准传感器安装在热床的后方，可以对两个热端的位置进行校准，保证良好的打印质量。
+
+![fac226.png](https://public-cdn.bblmw.com/wiki/new/x2d/sku_pics/fac226.png)
+
+### 适用打印机型号
+
+X2D
+
+### 何时更换
+
+- 当两个喷嘴的定位出现偏移，导致打印时模型出现错位、层移,并且通过喷嘴偏移校准也无法恢复。
+- 经 Bambu Lab 官方技术支持确认需更换喷嘴偏移校准传感器。
+
+### 所需要的工具和材料
+
+- 新的喷嘴偏移校准传感器
+- H1.5 内六角扳手
+- H2.0 内六角扳手
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 移除喷嘴偏移校准传感器
+
+#### 步骤 1. 调整热床位置
+
+在屏幕点击“运动 XYZ”，然后点击“工具头回中”。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+等待工具头回中完成后，再点击一次热床 向上10 图标。
+
+![003_lift_10mm_chinese_version.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace-nozzle-offset-calibration-sensor/003_lift_10mm_chinese_version.png)
+
+#### 步骤 2. 移除喷嘴偏移校准传感器
+
+移除喷嘴偏移校准器的 2 颗螺丝，
+
+![004_remove_screws.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace-nozzle-offset-calibration-sensor/004_remove_screws.png)
+
+移除喷嘴偏移校准传感器的线缆，可以使用螺丝刀按压线缆卡扣，移除线缆。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+### 安装喷嘴偏移校准传感器
+
+安装喷嘴偏移校准传感器的线缆，
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+安装喷嘴偏移校准器的 2 颗螺丝。
+
+![004_remove_screws.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace-nozzle-offset-calibration-sensor/004_remove_screws.png)
+
+### 移除擦嘴钢片
+
+移除喷嘴偏移校准器右边的 1 颗螺丝，然后轻轻将擦嘴钢片取下。
+
+![007_remove_wiper.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace-nozzle-offset-calibration-sensor/007_remove_wiper.png)
+
+### 安装擦嘴钢片
+
+将擦嘴钢片安装到喷嘴偏移校准器右侧，然后锁 1 颗螺丝。
+
+![007_remove_wiper.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace-nozzle-offset-calibration-sensor/007_remove_wiper.png)
+
+### 功能验证
+
+连接电源并打开打印机，发起打印，没有报错即可。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

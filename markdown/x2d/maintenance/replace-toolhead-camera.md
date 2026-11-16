@@ -1,0 +1,90 @@
+---
+title: 更换 X2D 工具头摄像头
+url: https://wiki.bambulab.com/zh/x2d/maintenance/replace-toolhead-camera
+category: X2D > 维护保养
+updated: 2026-11-03T11:06:50.628Z
+---
+
+> 提示 ：摄像头仅用于打印机相关功能。请确保摄像头已正确安装，使摄像头视野正确朝向打印区域，以避免对打印区域或喷嘴的检测出现问题。
+
+### 工具头摄像头
+
+工具头摄像头安装在工具头的右侧，可用于运动精度校准、高精度喷嘴偏移校准、视觉标定等功能。
+工具头摄像头配件包装内包含：
+
+1. 工具头摄像头 * 1
+2. 螺丝*2
+
+![toolhead_camera.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/sku_pics/toolhead_camera.jpg)
+
+### 所需工具和材料
+
+1. 新的工具头摄像头
+2. H1.5 内六角扳手
+
+### 视频教程
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 移除工具头摄像头
+
+#### 步骤 1：移除工具头后盖
+
+使用 H1.5 内六角扳手移除 4 颗螺丝，移除工具头后盖。
+
+![remove_toolhead_cover_003.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/remove_toolhead_cover_003.png)
+
+#### 步骤 2：断开连接线缆
+
+1. 断开右热端风扇线缆，打开工具头摄像头排线锁扣
+  ![disconnect_cables.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/disconnect_cables.jpg)
+2. 用镊子将排线松出。
+  ![remove_toolhead_camera_fpc_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/remove_toolhead_camera_fpc_001.png)
+
+#### 步骤 3：移除工具头摄像头
+
+1. 参照下图，用力掰开工具头相机上盖。
+  ![remove_toolhead_camera_cover_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/remove_toolhead_camera_cover_001.png)
+2. 用 H1.5 内六角扳手移除 2 颗螺丝。
+  ![2_screws.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/2_screws.jpg)
+3. 小心向外移动摄像头和排线，移除工具头摄像头。
+  ![remove_the_camera.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/remove_the_camera.jpg)
+
+### 安装工具头摄像头
+
+#### 步骤 1：安装工具头摄像头
+
+1. 将工具头摄像头FPC排线沿工具头下方缝隙推到接近连接器的位置
+  ![install_cable_1.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/install_cable_1.jpg)
+2. 将摄像头支架对准螺丝孔位，用 H1.5 内六角扳手拧紧 2 颗固定螺丝。
+  ![install_toolhead_camera_screw_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/install_toolhead_camera_screw_001.png)
+3. 安装摄像头上盖。
+  ![remove_toolhead_camera_cover_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/remove_toolhead_camera_cover_001.png)
+
+#### 步骤 2：连接线缆
+
+1. 将工具头摄像头FPC排线插入接头，确保对齐后扣紧卡扣头。
+  ![connect_camera_flex.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/connect_camera_flex.jpg)
+2. 连接右热端风扇线缆
+  ![connect_fan_cable.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/connect_fan_cable.jpg)
+
+#### 步骤 3：安装工具头后盖
+
+使用 H1.5 内六角扳手拧紧 4 颗固定螺丝。
+
+![remove_toolhead_cover_003.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_toolhead_camera/remove_toolhead_cover_003.png)
+
+### 如何验证成功
+
+连接电源，启动打印机，没有关联的报错信息即可。
+
+如果您遇到任何问题，请先回溯您的步骤并检查所有连接以重试。 如果问题仍然存在，请联系 Bambu Lab 服务团队寻求进一步帮助。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

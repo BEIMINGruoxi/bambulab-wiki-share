@@ -1,0 +1,127 @@
+---
+title: X2D 切料组件更换指南
+url: https://wiki.bambulab.com/zh/x2d/maintenance/replace-filament-cutter
+category: X2D > 维护保养
+updated: 2026-08-28T06:38:13.374Z
+---
+
+### 更换 X2D 切料组件
+
+切料组件是打印机切换耗材时，用于切断工具头内旧耗材的组件。
+X2D 含有两个切料组件，分别是左切料组件和右切料组件。
+
+![fac203.png](https://public-cdn.bblmw.com/wiki/new/x2d/sku_pics/fac203.png)
+
+![fac204.png](https://public-cdn.bblmw.com/wiki/new/x2d/sku_pics/fac204.png)
+
+### 何时更换
+
+退料时耗材切割不干净，经检查切刀刀片磨损，此时建议更换切料组件。
+
+### 所需要工具和材料
+
+1. 新的切料组件
+2. H1.5 内六角扳手
+3. 镊子或尖嘴钳
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+> 右切料拨杆只能在辅助热端抬升后（右图）才能进行手动切料测试，否则切料组件会错位并与切料拨杆卡住。
+>
+>
+> ![切料拨杆组件.jpg](https://wiki.bambulab.com/x2d/maintenance/replace-filament-cutter-lever/%E5%88%87%E6%96%99%E6%8B%A8%E6%9D%86%E7%BB%84%E4%BB%B6.jpg)
+
+### 视频教程
+
+### 更换左切料组件
+
+#### 步骤 1：移除工具头外壳
+
+请参考 [更换 X2D 工具头外壳](https://wiki.bambulab.com/zh/x2d/maintenance/replace-toolhead-housing) ，移除工具头的的前盖和中框。
+
+![remove_toolhead_cover_002.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/remove_toolhead_cover_002.png)
+
+#### 步骤 2：松开左切料拨杆
+
+使用 H1.5 内六角扳手移除左切料拨杆螺丝 1 颗，旋转切料拨杆露出切刀刀柄。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤 3：移除左切料组件
+
+用 H1.5 内六角扳手移除 1 颗螺丝，移除料线压块，用镊子或尖嘴钳取出左切料组件。
+
+![remove_left_screw_cutter_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/remove_left_screw_cutter_001.png)
+
+#### 步骤 4：安装新的左切料组件
+
+1. 参考下图将左切料组件放置于正确位置， 安装时注意切刀有凹槽一侧应朝向打印机前门方向 。
+  ![install_left_filament_cutter_003.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/install_left_filament_cutter_003.png)
+2. 装入料线压块，用 H1.5 内六角扳手拧紧 1 颗固定螺丝。
+  ![install_left_filament_cutter_block_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/install_left_filament_cutter_block_001.png)
+
+#### 步骤 5：安装左切料拨杆
+
+将切刀刀柄装入切料拨杆内，将切料拨杆中间的圆孔对准并扣入螺纹孔，然后用 H1.5 内六角扳手拧紧 1 颗固定螺丝。
+
+![remove_filament_cutter_lever_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/remove_filament_cutter_lever_001.png)
+
+#### 步骤 6：安装工具头外壳
+
+请参考 [更换 X2D 工具头外壳](https://wiki.bambulab.com/zh/x2d/maintenance/replace-toolhead-housing) ，安装工具头的前盖和中框。
+
+![install_toolhead_cover_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/install_toolhead_cover_001.png)
+
+### 更换右切料组件
+
+#### 步骤 1：移除工具头外壳
+
+请参考 [更换 X2D 工具头外壳](https://wiki.bambulab.com/zh/x2d/maintenance/replace-toolhead-housing) ，移除工具头的的前盖和中框。
+
+![remove_toolhead_cover_002.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/remove_toolhead_cover_002.png)
+
+#### 步骤 2：松开右切料拨杆
+
+向右拨动堵嘴组件升起右辅助热端，使用 H1.5 内六角扳手移除右切料拨杆螺丝 1 颗，使切料拨杆与切刀组件分离，旋转切料拨杆露出切刀刀柄。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤 3：移除右切料组件
+
+将切刀刀柄推到靠近 X 轴一侧，露出固定螺丝，用 H1.5 内六角扳手移除 1 颗螺丝，用镊子或尖嘴钳取出右切料组件。
+
+![remove_right_screw_filament_cutter_002.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/remove_right_screw_filament_cutter_002.png)
+
+#### 步骤 4：安装新的右切料组件
+
+1. 参考下图将右切料组件放置于正确位置， 安装时注意切刀有凹槽一侧应朝向打印机前门方向 。
+  ![install_right_filament_cutter_003.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/install_right_filament_cutter_003.png)
+2. 用 H1.5 内六角扳手拧紧 1 颗固定螺丝。
+  ![install_right_filament_cutter_screw_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/install_right_filament_cutter_screw_001.png)
+
+#### 步骤 5：右切料拨杆
+
+将切刀刀柄装入切料拨杆内，将切料拨杆中间的圆孔对准并扣入螺纹孔，然后用 H1.5 内六角扳手拧紧 1 颗固定螺丝。
+
+![install_right_filament_cutter_lever_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/install_right_filament_cutter_lever_001.png)
+
+#### 步骤 6：安装工具头外壳
+
+请参考 [更换 X2D 工具头外壳](https://wiki.bambulab.com/zh/x2d/maintenance/replace-toolhead-housing) ，安装工具头的前盖和中框。
+
+![install_toolhead_cover_001.png](https://public-cdn.bblmw.com/wiki/new/x2d/replace_filament_cutter/install_toolhead_cover_001.png)
+
+### 如何验证成功
+
+切刀动作顺畅，能正常切断耗材。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

@@ -1,0 +1,4 @@
+# 大体积生成物走 Git LFS，避免逼近 GitHub 单文件 100 MiB 上限
+*.db    filter=lfs diff=lfs merge=lfs -text
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+*.zip   filter=lfs diff=lfs merge=lfs -text

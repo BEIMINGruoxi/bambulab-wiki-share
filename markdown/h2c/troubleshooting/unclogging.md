@@ -1,0 +1,197 @@
+---
+title: 热端堵塞是 3D 打印领域内的一个常见的现象。堵塞的发生有各种不同的原因，例如，热端的温度不够高，不能确保耗材在
+url: https://wiki.bambulab.com/zh/h2c/troubleshooting/unclogging
+category: H2C > 故障排除
+updated: 2026-10-14T03:07:07.446Z
+---
+
+热端堵塞是 3D 打印领域内的一个常见的现象。堵塞的发生有各种不同的原因，例如，热端的温度不够高，不能确保耗材在挤压时足够快地融化；或者使用的耗材可能有微小颗粒(如木质的耗材或其他耗材)，这些颗粒会聚集在喷嘴的尖端，限制流动。这些现象很容易判断，会通过以下方式表现出来：
+
+- 挤出不足（挤压出的耗材不够，导致打印模型周围有间隙）
+- 没有挤出 （打印机运行正常，但没有耗材从喷头中出来）
+
+### 所需工具
+
+为了解决大部分的堵塞问题，你可能会用到以下工具：
+
+- 通针
+- 钳子
+- 防烫手套
+- 耗材
+
+![nozzle_cleaning_tool.jpg](https://wiki.bambulab.com/x1/maintenance/cold-pull/nozzle_cleaning_tool.jpg)
+
+### 操作前的注意事项及机器状态
+
+> 请注意本指南中的一些涉及高温打印头的操作有一定危险性。在执行这些操作时，请采取所有必要的预防措施。对于其中的一些操作，请关闭机器并等待热端完全冷却。
+> 在需要手持热端的时候，请您带好防烫手套。
+
+### 视频指南
+
+### 操作指南
+
+本文针对热端堵塞问题提供分层解决方案，可根据堵塞严重程度选择适配方法。以下操作以右喷嘴为例，左喷嘴操作逻辑一致，仅需在菜单中选择 “左边” 即可。
+
+### 1. 手动挤出堵塞物
+
+这是清理热端堵塞最简单的方法，在屏幕上将热端温度提高到略高于耗材要求的温度，然后通过屏幕菜单点击进料来挤出耗材。
+
+#### 步骤 1. 加热热端
+
+在打印机触控屏主界面，依次点击 “ 控制 ” → “ 喷嘴和挤出机 ”，进入挤出机控制界面。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/1.png)
+
+选择 “ 右边 ”（针对右喷嘴），接着将右喷嘴温度设为略高于耗材的正常打印温度。（以 PLA 为例，可将温度设置为 220 ℃。）
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/26.png)
+
+#### 步骤 2. 手动挤出
+
+温度稳定后，在当前界面点击 “ 进料 ” 按钮（单次点击后，挤出机会自动推送耗材一段时间），观察喷嘴出料状态。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/image2.1.png)
+
+> **注意事项：**若使用 TPU 耗材，点击挤出按钮次数请勿超过三次，并避免快速反复点击“退料”，以防造成卡死或卷料。
+
+观察喷嘴是否正常挤出。如下图所示，耗材挤出应平直且稳定。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/4.webp)
+
+### 2. 使用通针疏通
+
+> 注意： 此方法不适用于小于 0.4 mm 的喷嘴。
+
+若通过 “手动挤出” 无法将料线从喷嘴中挤出，或挤出的料线未完全替换为新加载的料线，则需使用通针疏通热端，并重复 “通针疏通 + 手动挤出” 的流程，直至堵塞解除，具体操作如下：
+
+1. 在打印机触控屏主界面，依次点击 “ 控制 ” → “ 喷嘴和挤出机 ”，进入挤出机控制界面。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/1.png)
+
+1. 选择 “ 右边 ”（针对右喷嘴），接着将右喷嘴温度设为略高于耗材的正常打印温度。（以 PLA 为例，可将温度设置为 220 ℃。）
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/26.png)
+
+3. 待温度达标后，将通针缓慢插入喷嘴，上下反复疏通数次。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/7.webp)
+
+> ⚠️ 警告： 使用清洁针疏通时，喷嘴内部压力可能突然释放，导致高温耗材意外喷出。清洁全程务必佩戴防护手套，且头部需远离打印机腔体，避免烫伤。
+
+### 3. 冷拔
+
+冷拔是 3D 打印中高效的喷嘴深度清洁技术，核心原理是通过 “加热软化耗材→冷却固化→整体拉出” 的流程，让耗材与喷嘴内部的碎屑、残留耗材、烧焦杂质等堵塞物紧密粘合，最终随耗材一同被物理移除，从根源解决顽固堵塞问题。
+
+定期执行冷拔维护，能有效恢复耗材的顺畅流动，保障打印时的稳定挤出，避免出现挤出不足、线条断裂、打印层粘连不良等缺陷。
+
+#### 步骤 1. 开始前的准备
+
+在打印机触控屏主界面，按以下路径操作：
+
+1. 导航至 “设置” 菜单（标识 1）；
+2. 选择 “工具箱” 按钮（标识 2）；
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/image1.1.png)
+
+1. 在菜单中找到并点击 “喷嘴冷拔维护” 选项（标识 3），即可进入冷拔程序准备界面。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/image3.1.png)
+
+#### 步骤 2. 冷拔参数设置与准备
+
+点击界面中的 “下一步” 按钮。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/image4.1.png)
+
+进入冷拔参数配置页面，菜单将显示以下可配置选项（参考下图）：
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/3.png)
+
+1. 选择清洁喷嘴： 根据需求勾选 “左侧” 或 “右侧” 喷嘴（与待清理堵塞的喷嘴一致）；
+2. 选择清洁耗材： 优先推荐 PLA 或 PETG 耗材；建议选用颜色比之前使用的耗材更浅，或对比度更高的型号，便于后续观察是否带出残留杂质、碎屑；
+3. 指定喷嘴规格： 准确选择当前安装的喷嘴尺寸（如 0.4 mm、0.6 mm 等）及类型；
+4. 选择残留耗材类型： 勾选堵塞时正在使用，或最近一次使用的耗材类型（机器会自动匹配该耗材的适配加热温度，确保残留耗材充分软化）。
+5. 所有参数配置完成后，点击 “ 开始 ” 按钮，启动冷拔清洁程序。
+
+#### 步骤 3. 拔出 PTFE 管
+
+1. 按照屏幕提示，按住两个黑色气动接头的外圈，同时将上方 PTFE 管拔出。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/image5.1.png)
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/12.webp)
+
+1. 点击 “ 已完成，完成 ”，继续下一步。
+
+#### 步骤 4. 插入耗材并启动自动程序
+
+1. 按照屏幕提示，将步骤 2 中选定的清洁耗材（PLA 或 PETG）从进料口插入并推至就位。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/14.webp)
+
+1. 确认安装到位后，点击界面上的“已完成，继续”。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/5.png)
+
+1. 接下来设备将自动完成以下步骤（无需手动操作）：
+
+- 将喷嘴加热至预设温度；
+- 清除喷嘴内残留的旧耗材；
+- 将喷嘴冷却至适合冷拔的温度。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/6.png)
+
+#### 步骤 5. 取出耗材并复位 PTFE 管
+
+1. 出现提示后，请 缓慢、匀速 手动拉出耗材（耗材前端可能带出堵塞杂质）。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+> 注意： 冷拔过程中请垂直且缓慢向上拉出耗材；过快或倾斜用力易导致断丝。
+
+1. 耗材完全取出后，点击“ 已完成，继续 ”。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/8.png)
+
+1. 随后界面将显示清洁后的参考示例，供您比对：
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/10.png)
+
+- 若取出的耗材表面仍有残留物、焦块或异色杂质，请重复冷拔流程，直至耗材前端干净平整；
+- 若耗材前端光滑且无附着物，则表示清理完成。
+
+1. 最后，将 PTFE 管复位并按压至位（确保牢固），点击“ OK ”（标识 1），即可完成本次冷拔维护流程。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 评估冷拔效果
+
+在已拉出的耗材末端（如下图为 HF 喷嘴）上，需重点关注以下质量指标：
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/23.png)
+
+1. 色泽一致性：已拉出耗材丝不得夹杂异色杂质或碳化沉积物。
+2. 表面洁净度：已拉出耗材丝表面需呈现均质化熔融状态，无颗粒状烧结物附着。
+
+我们强烈建议您建议多次重复冷拔直至挤出的耗材丝达到表面洁净无异常物质残留（如下图所示为 HF 喷嘴）。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/24.png)
+
+### 如何验证完成/成功
+
+重新安装喷嘴，连接 PTFE 管，并重新装入耗材以测试挤出效果。如果仍然出现堵塞或挤出不足的情况，则需要反复尝试清洁热端。
+
+![图片](https://wiki.bambulab.com/h2c/troubleshoting/unclogging/compressed_file/34.webp)
+
+上述操作可清除 99% 的喷嘴堵塞物，但若喷嘴已发生物理损坏， 直接更换喷嘴 即可解决问题。完成所有疏通步骤后，若设备能恢复正常打印状态，即表明喷嘴疏通操作成功。
+
+> 说明 ： 0.2 mm 口径喷嘴的堵塞问题解决难度更高，建议根据实际情况 多次重复 上述疏通步骤。
+> 另外，口径小于 0.4 mm 的喷嘴比大于 0.4 mm 的喷嘴更容易堵塞，因为大口径喷嘴允许更大尺寸的颗粒通过。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

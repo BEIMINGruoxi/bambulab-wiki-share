@@ -1,0 +1,35 @@
+---
+title: 0300-4002：X1 系列
+url: https://wiki.bambulab.com/zh/x1/troubleshooting/bed-leveling-failure
+category: X1 系列 > 故障排除
+updated: 2026-08-28T06:35:42.554Z
+---
+
+### 故障描述
+
+热床调平是通过测量并补偿打印板表面的高度差,确保喷嘴与热床间隙在整个打印区域内保持一致。
+
+#### 导致该故障的原因可能是：
+
+- 打印板未正确安装
+- 打印版表面有异物
+
+### 故障排除
+
+#### 步骤1. 检查打印板是否正确安装
+
+![1.jpg](https://wiki.bambulab.com/x1-carbon-combo/2.jpg)
+
+#### 步骤2. 清理打印板表面异物
+
+![1.jpg](https://wiki.bambulab.com/x1-carbon-combo/1.jpg)
+
+#### 步骤3. 重新校准
+
+完成以上排查步骤后，请在打印机屏幕上点击 重新校准 。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

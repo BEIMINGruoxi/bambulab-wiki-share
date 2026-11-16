@@ -1,0 +1,75 @@
+---
+title: Bambu Studio 对象列表顺序对切片的影响
+url: https://wiki.bambulab.com/zh/software/bambu-studio/object-list-order-explanation
+category: Bambu Lab 软件 > Bambu Studio
+updated: 2026-08-28T06:36:47.889Z
+---
+
+对象列表的顺序是切片逻辑的重要组成部分，并非仅用于界面显示。合理的顺序设置，会直接影响模型的颜色表现、重叠覆盖关系，以及逐件打印时的实际执行顺序。
+
+零件（Part）顺序 ：影响同一对象内的颜色覆盖的优先级
+
+对象（Object）顺序 ：影响逐件打印的打印先后顺序
+
+### 一、同一对象内零件的顺序
+
+在同一个对象中，多零件的排列顺序会直接影响切片时的颜色分配与几何覆盖关系。
+
+#### 行为说明
+
+- 对象列表中 靠后的零件具有更高的覆盖优先级
+- 当零件在空间上存在重叠或合并区域时：
+  - 先处理靠前的零件
+  - 后处理的零件会覆盖前者的颜色或结果
+
+#### 使用建议
+
+- 主体结构零件建议放在前面
+- 用于上色、装饰或局部覆盖的零件建议放置在列表后方
+- 若出现颜色异常、区域被覆盖等问题，可优先检查零件顺序是否合理
+
+#### 案例
+
+将两段绿色文字分别放置在白色方块的顶部，并嵌入方块内部，顶面与方块齐平。
+
+将 Bambu A 排在列表上方，Bambu B 排在列表末尾。
+
+![2_compressed.png](https://wiki.bambulab.com/software/bambu-studio/object-list-order-explanation/1.png)
+
+切片结果如下，排在方块前方的 Bambu A 被覆盖而无法显示；排在方块后方的 Bambu B 则正常生成并嵌入方块。
+
+![2_compressed.png](https://wiki.bambulab.com/software/bambu-studio/object-list-order-explanation/2_compressed.png)
+
+### 二、逐件打印模式下对象的顺序
+
+启用 逐件打印 时，对象列表的顺序将直接决定整机的打印流程与优先级。
+
+#### 行为说明
+
+- 列表中靠前的对象会被优先完整打印
+- 前一个对象打印完成后，再按列表顺序依次打印后续对象
+- 该顺序会参与切片的避让与碰撞检测计算
+
+#### 使用建议
+
+- 体积较大、占用空间多的对象建议放在前面
+- 细小、高精度或易碰撞的零件建议放在后面，可提升打印成功率
+- 若逐件打印校验不通过，调整对象顺序往往能有效解决问题
+
+#### 案例
+
+在准备页面可使用快捷键 Ctrl+E 显示 / 隐藏打印顺序标签（ [详见逐件打印相关说明](https://wiki.bambulab.com/zh/software/bambu-studio/sequent-print) ）。
+
+按照左侧列表顺序，系统将先打印椎体，再打印立方体：
+
+![图片](https://wiki.bambulab.com/software/bambu-studio/object-list-order-explanation/3.png)
+
+随后打印圆柱，最后打印小船模型：
+
+![图片](https://wiki.bambulab.com/software/bambu-studio/object-list-order-explanation/4.png)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

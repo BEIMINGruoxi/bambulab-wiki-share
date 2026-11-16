@@ -1,0 +1,131 @@
+---
+title: 置顶方案配件模型
+url: https://wiki.bambulab.com/zh/a2l/manual/AMS_2_Pro_Top_Mount
+category: A2L > 使用手册
+updated: 2026-08-28T06:47:27.277Z
+---
+
+![01-cover-ams-2-pro-a2l-top-mount.jpeg](https://wiki.bambulab.com/a2l/manual/ams-2/01-cover-ams-2-pro-a2l-top-mount.jpeg)
+
+### 所需材料
+
+| 名称 | 数量 | 备注 |
+| --- | --- | --- |
+| 置顶方案配件模型 点击下载 |  | 包含以下所需的顶部支架、脚架和固定块 |
+| AMS | 1 | AMS / AMS 2 Pro |
+| 6-pin 连接线 | 1 | 请避免将 AMS 一代线缆连接至 AMS 2 Pro |
+| 料管（五通组件——料管中继接头） | 1 | 推荐长度约 760 mm |
+| 料管（料管中继接头——AMS） | 1 | 推荐长度约 925 mm |
+| 料管中继接头 | 1 | 配件盒内 〔02-material-ptfe-tube-relay-to-ams.png〕 |
+| 硅胶脚垫 | 2 | 配件盒内 〔03-material-silicone-foot-pad.png〕 |
+
+### 步骤 1：安装顶部支架
+
+面向打印机前方（屏幕侧），区分左、右两个顶部支架。安装时，支架前端的凸起应朝向内侧。
+
+![04-top-bracket-left-right-orientation.png](https://wiki.bambulab.com/a2l/manual/ams-2/04-top-bracket-left-right-orientation.png)
+
+在龙门架中间位置，将左侧顶部支架竖直卡入框架。向下按压支架后，将其向左滑动，直至支架与龙门架框架完全贴合。
+
+> 提示
+>
+>
+>
+> 如需拆下顶部支架，请先将其滑动至框架中间位置，再向上取下。
+
+![05-install-left-top-bracket.gif](https://wiki.bambulab.com/a2l/manual/ams-2/05-install-left-top-bracket.gif)
+
+将右侧顶部支架竖直卡入龙门架中间位置，向下按压后向右滑动，直至支架与龙门架框架完全贴合。
+
+![06-install-right-top-bracket.gif](https://wiki.bambulab.com/a2l/manual/ams-2/06-install-right-top-bracket.gif)
+
+### 步骤 2：安装脚架
+
+区分左、右两个脚架及对应的固定块。脚架与固定块的斜面角度不同，请根据斜面形状进行匹配，确保两者能够完全贴合。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+将配件盒中附赠的硅胶脚垫贴在脚架底部，以提高支撑稳定性。
+
+![09-attach-silicone-foot-pad-1.png](https://wiki.bambulab.com/a2l/manual/ams-2/09-attach-silicone-foot-pad-1.png)
+
+将左侧脚架沿打印机斜撑滑入安装位置。
+
+![11-slide-left-foot-stand-1.png](https://wiki.bambulab.com/a2l/manual/ams-2/11-slide-left-foot-stand-1.png)
+
+将匹配的左侧固定块从上方向下滑入，直至固定块与脚架完全贴合。
+
+![13-install-left-fixing-block-1.png](https://wiki.bambulab.com/a2l/manual/ams-2/13-install-left-fixing-block-1.png)
+
+将右侧脚架沿斜撑滑入安装位置。
+
+![15-slide-right-foot-stand-1.png](https://wiki.bambulab.com/a2l/manual/ams-2/15-slide-right-foot-stand-1.png)
+
+将匹配的右侧固定块从上方向下滑入，直至固定块与脚架完全贴合。
+
+![17-install-right-fixing-block-1.png](https://wiki.bambulab.com/a2l/manual/ams-2/17-install-right-fixing-block-1.png)
+
+### 步骤 3：放置 AMS 或 AMS 2 Pro
+
+将 AMS/AMS 2 Pro 底部凹槽与顶部支架对齐，然后平稳放置 AMS/AMS 2 Pro。确认 AMS/AMS 2 Pro 放置稳定，无明显晃动。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+### 步骤 4：使用料管中继接头连接料管
+
+> 提示
+>
+>
+>
+> 为降低进料阻力，并避免料管影响打印机运动，请务必使用料管中继接头连接料管。
+
+将一根料管连接至 AMS 出料口，并将另一端插入料管中继接头下方接口。
+
+![21-connect-ams-outlet-to-relay-lower-port-1.png](https://wiki.bambulab.com/a2l/manual/ams-2/21-connect-ams-outlet-to-relay-lower-port-1.png)
+
+再将另一根料管连接至工具头进料口，并将另一端插入料管中继接头上方接口。
+
+![23-connect-toolhead-tube-to-relay-upper-port-1.png](https://wiki.bambulab.com/a2l/manual/ams-2/23-connect-toolhead-tube-to-relay-upper-port-1.png)
+
+### 步骤 5：使用理线器整理 6-pin 连接线
+
+轻轻打开理线器，将其套到靠近线缆一侧的打印机斜撑上。
+
+![25-open-cable-organizer-on-brace.png](https://wiki.bambulab.com/a2l/manual/ams-2/25-open-cable-organizer-on-brace.png)
+
+在斜撑上方的孔位中固定理线器。
+
+![26-fix-cable-organizer-on-brace.png](https://wiki.bambulab.com/a2l/manual/ams-2/26-fix-cable-organizer-on-brace.png)
+
+将理线器沿斜撑滑动，对准内侧孔位后按压卡入。
+
+![27-slide-and-snap-cable-organizer.png](https://wiki.bambulab.com/a2l/manual/ams-2/27-slide-and-snap-cable-organizer.png)
+
+将 6-pin 连接线插入 AMS。
+
+![28-plug-6-pin-cable-into-ams.png](https://wiki.bambulab.com/a2l/manual/ams-2/28-plug-6-pin-cable-into-ams.png)
+
+将 6-pin 连接线穿过脚架的三角空隙，插入 6-pin 接口中。
+
+![29-route-6-pin-cable-through-foot-stand-1.jpeg](https://wiki.bambulab.com/a2l/manual/ams-2/29-route-6-pin-cable-through-foot-stand-1.jpeg)
+
+将线缆卡入理线器。安装完成后，效果如下图所示。
+
+![31-final-installed-cable-organizer.jpeg](https://wiki.bambulab.com/a2l/manual/ams-2/31-final-installed-cable-organizer.jpeg)
+
+### 附录：安装料管定位导向件
+
+料管定位导向件用于防止连接不同类型 AMS 时，料管在五通入口处过度弯曲导致进料失败。如需安装，请参考下方步骤。
+
+- 将料管定位导向件对准工具头五通组件，向下压紧，确保安装到位
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

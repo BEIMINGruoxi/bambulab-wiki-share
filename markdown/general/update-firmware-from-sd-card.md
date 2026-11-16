@@ -1,0 +1,54 @@
+---
+title: 离线升级固件
+url: https://wiki.bambulab.com/zh/general/update-firmware-from-sd-card
+category: 拓竹打印机通用知识篇 > 离线升级固件
+updated: 2026-08-28T08:29:22.586Z
+---
+
+### 离线升级打印机固件
+
+当打印机不联网、无法访问拓竹云服务时，可通过 microSD 卡和离线升级包升级打印机的固件。
+
+> 固件升级时请勿断电，请耐心等待 10-20 分钟。
+
+### 使用方法
+
+#### H2 系列
+
+包含 H2C、H2D、H2S 和 H2D Pro。
+
+详情请参见 [通过 U 盘离线升级固件 —— H2D/H2C](https://wiki.bambulab.com/zh/h2d/manual/offline-firmware-update) 。
+
+#### X1 系列
+
+包含 X1、X1C。
+
+详情请参见 [通过 microSD 卡升级固件 ——X1/X1C](https://wiki.bambulab.com/zh/x1/manual/X1-firmware-update-from-SD-card) 。
+
+#### P1 系列
+
+包含 P1P 和 P1S。
+
+详情请参见 [通过 microSD 卡升级固件——P1P/P1S](https://wiki.bambulab.com/zh/p1/manual/P1-firmware-update-from-SD-card) 。
+
+#### P2S & X2D
+
+详情请参见 [通过 U 盘升级固件——P2S](https://wiki.bambulab.com/zh/p2s/manual/offline-firmware-update) 。
+
+#### A1 & A2L
+
+详情请参见 [通过 microSD 卡升级固件——A1/A2L](https://wiki.bambulab.com/zh/a1/manual/a1-firmware-update-from-SD-card) 。
+
+#### A1 mini
+
+详情请参见 [通过 microSD 卡升级固件——A1 mini](https://wiki.bambulab.com/zh/a1-mini/manual/a1-mini-firmware-update-from-SD-card) 。
+
+#### X1E
+
+详情请参见 [通过 microSD 卡升级固件——X1E](https://wiki.bambulab.com/zh/x1/manual/X1E-firmware-update-from-SD-card) 。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

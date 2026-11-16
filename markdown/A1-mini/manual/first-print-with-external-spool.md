@@ -1,0 +1,156 @@
+---
+title: A1 mini 初次打印指南（使用外挂料盘）
+url: https://wiki.bambulab.com/zh/a1-mini/manual/first-print-with-external-spool
+category: A1 mini > A1 mini 用户手册
+updated: 2026-11-10T08:19:09.527Z
+---
+
+### 视频教程
+
+https://www.youtube.com/watch?v=BV1y8411v7Ue&src=bilibili
+
+### 打印准备
+
+#### 使用附赠耗材
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/img_eac616b3.jpg)
+
+##### 1. 插入耗材
+
+将耗材插入，向工具头里推送耗材，直至其无法前进。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+##### 2. 进料
+
+1. 点击打印机屏幕的 耗材 ，工具头处会出现小绿灯，表示检测到耗材进入。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+2. 点击进料，需手动选择耗材类型。
+
+| 〔图片〕 | 〔图片〕 | 〔图片〕 |
+| --- | --- | --- |
+
+3. 喷嘴开始加热到 250 ℃ 后，再次手动推入耗材。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+4. 观察喷嘴，如果挤出机正常吐料，在屏幕上选择 完成 ，则完成进料。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+如果耗材没有被吐出，选择 重试 ，然后重复推入耗材的动作，直至耗材挤出。
+
+#### 使用料盘
+
+##### 1. 安装料盘
+
+根据耗材绕线的方向，安装料盘。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/prepare1-external.png)
+
+##### 2. 进料
+
+将耗材的一端插入料管，向工具头里推送耗材直至无法前进。此时，打印机屏幕上的工具头处会出现小绿灯，表示检测到耗材进入。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+在屏幕上选择 进料/Load 。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/prepare4-external.png)
+
+喷嘴开始加热到 250 ℃ 后，再次手动推入耗材。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+观察喷嘴，以确保看见挤出机正常吐料。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/prepare7-external.png)
+
+在看见喷嘴顺利吐出融化的线材后，在屏幕上选择 完成/Done ，完成进料。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/prepare8-external.png)
+
+如果耗材没有被吐出，选择 重试/Retry ，然后重复推入耗材的动作。
+
+### 开始打印
+
+在确保装载好线材和放置打印板后，即可以开始打印。
+
+#### 使用 Bambu Studio 发起打印任务
+
+点击此处 [下载Bambu Studio](https://bambulab.cn/zh/download/studio) 。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/start-print2-cn.png)
+
+打开 Bambu Studio，可右键选择模型并切片，然后发送打印任务。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 使用内置文件发起打印
+
+在打印机屏幕上点击 打印文件/Print Files ，访问 MicroSD 卡的内置文件。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/start-print3-external.png)
+
+选择想要打印的模型。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/start-print4-external.png)
+
+推荐启用热床调平和动态流量校准功能。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/start-print5-external.png)
+
+开始“打印”。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/start-print6-external.png)
+
+### 如何续料
+
+如果在打印过程中，料已经用完了，则可以从外挂支架上取下空料盘，并安装新料盘，参考上述的 "打印准备" 操作进行续料。
+
+### 如何换料
+
+如果想换料，则需要暂停当前打印任务，先将工具头中耗材退出，再装载新耗材。
+
+#### 1. 退料
+
+在屏幕上选择 退料/Unload ，打印机将开始自动加热热端，并切断耗材。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 2. 抽出耗材
+
+完成上一步后，需要手动抽出耗材才能完成退料流程。
+
+请根据 APP/Studio 上的提示，尽快手动抽出耗材。如果喷嘴温度保持在 142℃ 且不下降，说明挤出机内仍有余料，则表示退料尚未完成。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+如果没有及时抽出耗材，请在屏幕上选择 重试/Retry 并重新抽出。
+
+#### 3. 进料
+
+完成退料操作后，按照上述的 "打印准备" 操作进料。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+>
+>
+>
+> 如果本指南并未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/cn/im) ，我们随时准备为您解答疑问并提供帮助。
+>
+>
+>
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

@@ -1,0 +1,64 @@
+---
+title: A1 -显示屏异常排查
+url: https://wiki.bambulab.com/zh/a1/troubleshooting/screen-not-working-as-expected
+category: A1 > A1故障排查
+updated: 2026-08-28T08:46:23.391Z
+---
+
+### 显示屏黑屏
+
+#### 问题现象
+
+启动打印机，显示屏黑屏无显示。
+
+#### 可能的原因
+
+1. Micro SD 卡故障，需更换 Micro SD 卡；
+2. 电源供电异常，需更换电源或电源连接线；
+3. 主板供电异常或损坏，需更换主板；
+4. 显示屏损坏，需更换显示屏；
+5. 地线接触不良导致显示异常：如屏幕显示时好时坏、触摸操作不灵敏等现象，可能由于插座地线接触不良引起。建议检查供电插座的接地情况，确保地线连接良好。
+
+#### 安全提示
+
+> 重要提醒 ！
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+#### 所需的工具
+
+- H1.5/2.0 内六角扳手
+- 镊子
+
+#### 排查指引
+
+#### 检查设备在线情况
+
+打开 Bambu Studio/Handy 观察账号是否依然绑定 A1。
+
+![zh.jpg](https://wiki.bambulab.com/a1/troubleshooting/screen-not-working-as-expected/zh.jpg)
+
+- 若设备在线，则黑屏的原因可能为显示屏故障，请 [检查显示屏排线](https://wiki.bambulab.com/zh/a1/troubleshooting/screen-not-working-as-expected#replace-nozzle-step-1) 。
+- 若设备离线，则黑屏的原因可能是设备存在短路，请参考 [打印机电路故障排查 - A1](https://wiki.bambulab.com/zh/a1/troubleshooting/circuit-fault) 进行排查。
+
+#### 检查显示屏排线
+
+注意事项：需要先关闭打印机电源
+
+在已经确认主板和电源能正常工作的情况下，请尝试重新连接显示屏排线，可参考 [A1 屏幕更换指南](https://wiki.bambulab.com/zh/a1/maintenance/touchscreen-replacement-guide) 。
+
+重新连接排线的过程中，请检查接口和 FPC 排线有无损伤，如果排线有损伤请联系售后团队处理。
+
+![图片](https://wiki.bambulab.com/a1/manual/replace-touchscreen/remove_the_ribbon_cable.jpeg)
+
+### 显示屏刷新过慢
+
+#### 原因及解决方案
+
+机器处于下载切片文件的过程中，系统正全力处理下载任务，屏幕的刷新会变慢，出现显示画面卡顿的情况，是正常的，切片文件下载完成后会恢复正常。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

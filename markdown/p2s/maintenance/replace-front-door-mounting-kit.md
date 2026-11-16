@@ -1,0 +1,86 @@
+---
+title: 前门安装配件是用来将玻璃前门安装到打印机上的连接配件，包含上、下合页各一个，以及一条硅胶条。
+url: https://wiki.bambulab.com/zh/p2s/maintenance/replace-front-door-mounting-kit
+category: P2S > P2S 机器维护
+updated: 2026-11-06T09:24:58.194Z
+---
+
+### 前门安装配件
+
+前门安装配件 FAS075 P2S、X2D、P2SE、X2D Pro
+
+前门安装配件是用来将玻璃前门安装到打印机上的连接配件，包含上、下合页各一个，以及一条硅胶条。
+
+![fas073.jpg](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/p2s-sku-pics/fas075.jpg)
+
+### 适用机型
+
+- P2S
+- X2D
+
+待发布
+- X2D Pro
+- P2SE
+
+### 何时更换
+
+在前门安装配件变形的情况下更换。
+
+### 所需的工具和材料
+
+- 前门安装配件
+- H1.5 内六角扳手
+- H2.0 内六角扳手
+
+### 移除前门安装配件
+
+#### 第 1 步 - 移除玻璃前门
+
+参考 [更换玻璃前门](https://wiki.bambulab.com/zh/p2s/maintenance/replace-front-glass-door) 的指引，移除玻璃前门。
+
+> 安全提示：拆装过程中注意对玻璃门的保护，如用手扶住玻璃门，避免跌落损坏。
+
+#### 第 2 步 - 移除屏幕和前面盖
+
+您可以参考 [更换前面盖](https://wiki.bambulab.com/zh/p2s/maintenance/replace-front-cover) 的拆解部份内容，移除屏幕和前面盖。
+
+#### 第 3 步 - 移除前门安装配件
+
+用 H1.5 的螺丝刀移除上方前门安装配件的两颗螺丝，将其取下。
+
+![top_mounting_kit002.png](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/replace-front-door-mounting-kit/top_mounting_kit002.png)
+
+将下前门安装配件掰开，用H2.0的扳手移除螺丝，将其取下。
+
+![bottom_mounting_kit003.jpg](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/replace-front-door-mounting-kit/bottom_mounting_kit003.jpg)
+
+### 安装前门安装配件
+
+#### 第 1 步 - 安装前门安装配件
+
+将上方前门安装配件的定位孔对齐安装位置的定位柱，用 H1.5 的螺丝刀安装两颗螺丝。
+
+![install_mounting_kit004.jpg](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/replace-front-door-mounting-kit/install_mounting_kit004.jpg)
+
+将下前门安装配件安装到打印机底座的安装槽中，用H2.0的扳手安装螺丝。
+
+![install_bottom_mounting_kit005.jpg](https://public-cdn.bblmw.com/wiki/new/p2s/maintenance/replace-front-door-mounting-kit/install_bottom_mounting_kit005.jpg)
+
+#### 第 2 步 - 安装屏幕和前面盖
+
+您可以参考 [更换前面盖](https://wiki.bambulab.com/zh/p2s/maintenance/replace-front-cover) 的组装部份内容，安装屏幕和前面盖。
+
+#### 第 3 步 - 安装玻璃前门
+
+参考 [更换玻璃前门](https://wiki.bambulab.com/zh/p2s/maintenance/replace-front-glass-door) 的指引，安装玻璃前门。
+
+### 如何验证完成/成功
+
+- 目视检查外观，确认螺丝无浮起；
+- 手动开合玻璃门，动作顺畅，闭合位置正常即可。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

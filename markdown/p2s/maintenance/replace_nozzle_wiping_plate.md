@@ -1,0 +1,73 @@
+---
+title: 更换 P2S 擦嘴钢片
+url: https://wiki.bambulab.com/zh/p2s/maintenance/replace_nozzle_wiping_plate
+category: P2S > P2S 机器维护
+updated: 2026-08-28T06:31:29.618Z
+---
+
+### 擦嘴钢片
+
+擦嘴钢片是安装在热床上的带有通孔的金属片，用于对喷嘴进行精擦。
+
+### 何时更换
+
+擦嘴钢片开裂或严重变形时更换。
+
+### 所需的工具和材料
+
+- 擦嘴钢片
+- H2.0 内六角扳手
+- 镊子
+
+### 移除擦嘴钢片
+
+#### 第1步 - 移除擦嘴钢片上的螺丝
+
+用H2.0 内六角扳手移除固定在擦嘴钢片上的2颗螺丝。
+
+![nozzle_wiping_plate-1.png](https://wiki.bambulab.com/p2s/maintenance/nozzle_wiping_plate_replacement_guide/nozzle_wiping_plate-1.png)
+
+#### 第2步 - 移除擦嘴钢片
+
+取下擦嘴钢片，拿起时注意擦嘴钢片下方有两颗垫圈，避免掉落丢失。
+
+![nozzle_wiping_plate-2.png](https://wiki.bambulab.com/p2s/maintenance/nozzle_wiping_plate_replacement_guide/nozzle_wiping_plate-2.png)
+
+![nozzle_wiping_plate-3.png](https://wiki.bambulab.com/p2s/maintenance/nozzle_wiping_plate_replacement_guide/nozzle_wiping_plate-3.png)
+
+#### 第3步 - 移除垫圈（基本上不需要更换）
+
+使用镊子小心夹起放置于螺纹孔上的两个垫圈。
+
+![nozzle_wiping_plate-4.png](https://wiki.bambulab.com/p2s/maintenance/nozzle_wiping_plate_replacement_guide/nozzle_wiping_plate-4.png)
+
+### 安装擦嘴钢片
+
+#### 第1步 - 放置垫圈 （前面有进行移除时适用）
+
+将两个垫圈分别放置于螺纹孔上。
+
+![nozzle_wiping_plate-3.png](https://wiki.bambulab.com/p2s/maintenance/nozzle_wiping_plate_replacement_guide/nozzle_wiping_plate-3.png)
+
+#### 第2步 - 放置擦嘴钢片
+
+将新的擦嘴钢片小心放置于垫圈上，露出螺纹孔位。
+
+![nozzle_wiping_plate-2.png](https://wiki.bambulab.com/p2s/maintenance/nozzle_wiping_plate_replacement_guide/nozzle_wiping_plate-2.png)
+
+#### 第3步 - 安装擦嘴钢片
+
+依次预锁入2颗螺丝（不锁紧），检查擦嘴钢片与热床边缘基本持平，然后再拧紧2颗螺丝。
+
+![nozzle_wiping_plate-1.png](https://wiki.bambulab.com/p2s/maintenance/nozzle_wiping_plate_replacement_guide/nozzle_wiping_plate-1.png)
+
+#### 如何验证完成/成功
+
+- 目视观察，擦嘴钢片水平无歪斜；
+- 用手推动擦嘴刚片，无松动。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

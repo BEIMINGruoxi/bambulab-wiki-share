@@ -1,0 +1,84 @@
+---
+title: X2D 涡流线圈调整
+url: https://wiki.bambulab.com/zh/x2d/maintenance/adjust-the-eddy-sensor
+category: X2D > 维护保养
+updated: 2026-08-28T08:43:39.856Z
+---
+
+### 概述
+
+工具头上的涡流线圈用于参与 Z 轴归零、热床调平以及动态流量校准 等功能。当涡流线圈与喷嘴之间的距离过近或过远时，这些功能都可能受到影响。
+
+如果两者之间的间距偏差较大，设备可能会出现 涡流传感器信号频率过低或灵敏度不足 的情况。此时需要按照以下步骤对涡流线圈的位置进行调整，以恢复正常工作状态。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/003.png)
+
+### 视频教程
+
+> 本文以右热端为主要操作对象，视频中包含左热端调整操作。
+
+### 调整步骤
+
+#### 1. 打开工具头前盖
+
+抬起工具头前盖组件，并将其固定在工具头上方，露出热端部分，便于后续操作。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/010.webp)
+
+#### 2. 粗略检查涡流线圈间距
+
+裁剪一段约 6 mm × 60 mm 的 A4 纸条，并将其 对折一次 。将纸片插入 喷嘴与涡流线圈之间 ，前后轻轻抽拉纸片进行测试。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/008.webp)
+
+判断标准如下：
+
+- 如果纸片 过紧难以移动 ，说明间距过小；
+- 如果纸片 几乎没有阻力 ，说明间距过大；
+- 理想状态下应能感受到 轻微摩擦阻力，但纸片仍可以自由移动 。此时说明喷嘴与涡流线圈之间的间隙大约为 0.2–0.3 mm 。
+
+#### 3. 移除热端组件
+
+如果检测发现间距异常，需要先移除热端组件，以便调整涡流线圈的位置。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/004.png)
+
+#### 4. 调整涡流线圈位置
+
+使用工具 松开两颗涡流线圈固定螺丝 （无需完全拆下）。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/002.png)
+
+> 左涡流线圈固定螺丝如下：
+>
+>
+> ![pixpin_2026-05-20_11-25-02.jpg](https://wiki.bambulab.com/x2d/maintenance/adjust-the-eddy-sensor/pixpin_2026-05-20_11-25-02.jpg)
+
+使用 镊子轻微移动涡流线圈 ，调整其与喷嘴之间的距离；调整完成后，使用 H1.5 内六角螺丝刀 重新锁紧固定螺丝。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 5. 重写装回热端组件
+
+将热端组件装回工具头，并确认 固定卡扣已完全锁紧到位 。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/001.png)
+
+#### 6. 再次确认间距
+
+再次使用对折的 A4 纸片插入 喷嘴与涡流线圈之间 进行测试；当纸片移动时能够感受到 轻微摩擦阻力，同时仍可顺畅滑动 ，则说明间隙已经调整至合适范围（约 0.2–0.3 mm ）。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/009.webp)
+
+### 功能验证
+
+为确保设备运行正常，请开机执行一次热床调平校准；如果过程中未出现回零失败或调平失败等报错，说明涡流线圈与热端之间的距离处于合适范围。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/adjust-the-eddy-sensor/005.png)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

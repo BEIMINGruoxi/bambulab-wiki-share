@@ -1,0 +1,75 @@
+---
+title: 耗材散开（炸盘）修复指南
+url: https://wiki.bambulab.com/zh/filament-acc/filament/fix-loose-filament
+category: 耗材 > Bambu Lab 耗材
+updated: 2026-08-28T08:30:19.428Z
+---
+
+### 何时使用
+
+在使用耗材的过程中出现料盘散开，导致料盘/耗材无法装回时，可以参考本指南来固定耗材。
+
+![炸盘案例1.jpg](https://wiki.bambulab.com/filament-acc/filament/fix-loose-filament/%E7%82%B8%E7%9B%98%E6%A1%88%E4%BE%8B1.jpg)
+
+> 注意 ：本篇文章不适用于料完全散开的情况。
+
+### 重要提醒
+
+> - 当料盘散开后请小心移动耗材，避免耗材跌落等导致完全无法使用。
+> - 无盘耗材的安装方法可以参考本指南： [如何把无盘耗材装到可重复使用料盘上 | Bambu Lab Wiki](https://wiki.bambulab.com/zh/general/swaping-new-filament-with-bambu-reusable-spool) 。
+> - 如果您对本指南有任何疑问，请 [点击这里提交工单](https://bambulab.cn/zh/sign-in?to=%2Fmy%2Fsupport%2Ftickets) ，我们将及时回复并为您提供所需的帮助。
+
+### 所需工具和材料
+
+- [固定工具](https://makerworld.com.cn/zh/models/409390-liao-pan-wei-xiu-tao-jian-spule-wei-xiu-tao-jian?from=search#profileId-319794)
+- [耗材支架](https://makerworld.com.cn/zh/models/126722-bambu-lab-xian-zhou-rao-xian-ji-jian-hua-ban#profileId-12567)
+
+### 使用固定工具固定耗材
+
+在开始之前，请检查耗材是否存在打结，如果存在打结的问题，请先参考这篇 Wiki 来处理： [耗材打结或者卡住 | Bambu Lab Wiki](https://wiki.bambulab.com/zh/filament-acc/filament/tangle-stuck-filament) 。
+
+#### 步骤 1：打印固定工具
+
+您可以先打印 [固定工具](https://makerworld.com.cn/zh/models/409390-liao-pan-wei-xiu-tao-jian-spule-wei-xiu-tao-jian?from=search#profileId-319794) 。
+
+![料盘固定工具.jpg](https://wiki.bambulab.com/filament-acc/filament/fix-loose-filament/%E6%96%99%E7%9B%98%E5%9B%BA%E5%AE%9A%E5%B7%A5%E5%85%B7.jpg)
+
+#### 步骤 2：固定耗材
+
+1. 将固定工具插入料盘中。
+
+|  |  |  |
+| --- | --- | --- |
+| 〔插入固定工具1.jpg〕 | 〔插入固定工具2.jpg〕 | 〔插入固定工具3.jpg〕 |
+
+1. 拧紧固定工具。
+
+![拧紧固定工具.jpg](https://wiki.bambulab.com/filament-acc/filament/fix-loose-filament/%E6%8B%A7%E7%B4%A7%E5%9B%BA%E5%AE%9A%E5%B7%A5%E5%85%B7.jpg)
+
+### 使用耗材支架进行打印
+
+如果固定之后料盘太宽，无法放进 AMS 中，则可以打印耗材支架来放置耗材，以便于可以通过外挂料盘进行打印。
+
+#### 步骤 1：打印耗材支架
+
+您可以先打印 [耗材支架](https://makerworld.com.cn/zh/models/126722-bambu-lab-xian-zhou-rao-xian-ji-jian-hua-ban#profileId-12567) 。
+
+![耗材支架图.jpg](https://wiki.bambulab.com/filament-acc/filament/fix-loose-filament/%E8%80%97%E6%9D%90%E6%94%AF%E6%9E%B6%E5%9B%BE.jpg)
+
+#### 步骤 2：将耗材放置在支架上
+
+1. 将轴承插入料盘中并拧紧。
+
+|  |  |
+| --- | --- |
+| 〔拧紧支架轴承1.jpg〕 | 〔拧紧支架轴承2.jpg〕 |
+
+1. 将耗材放置在支架上，确保耗材可以顺畅转动。
+
+![耗材放置在支架上.jpg](https://wiki.bambulab.com/filament-acc/filament/fix-loose-filament/%E8%80%97%E6%9D%90%E6%94%BE%E7%BD%AE%E5%9C%A8%E6%94%AF%E6%9E%B6%E4%B8%8A.jpg)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

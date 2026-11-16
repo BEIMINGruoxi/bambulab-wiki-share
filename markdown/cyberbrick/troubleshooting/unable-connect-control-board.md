@@ -1,0 +1,64 @@
+---
+title: CyberBrick 无法通过手机或电脑连接多功能主控板
+url: https://wiki.bambulab.com/zh/cyberbrick/troubleshooting/unable-connect-control-board
+category: CyberBrick > 故障排除
+updated: 2026-08-28T06:22:38.375Z
+---
+
+### 现象
+
+当使用手机或电脑连接多功能主控板板时，出现连接失败的报错。
+
+![failed_to_connect-cn.png](https://wiki.bambulab.com/cyberbrick/troubleshooting/unable-connect-control-board/failed_to_connect-cn.png)
+
+### 故障排查
+
+您可以参考下述方案来进行故障排查。
+
+#### 步骤 1：检查多功能主控板的蓝牙名称
+
+延时摄影固件无法通过手机/电脑来进行绑定，如果需要使用延时摄影套件功能，请参考 [延时摄影套件 使用指南](https://wiki.bambulab.com/zh/makerworld/cyberbrick/example-projects/time-lapse) 。
+
+延时摄影固件的蓝牙名称为：
+
+- 1.0.3.2及以上版本的延时摄影固件的蓝牙名称为： CyberBrick-xxxx
+- 1.0.3.2 版本以下的延时摄影固件的蓝牙名称为： BBL_SHUTTER
+
+遥控固件的蓝牙名称为：
+
+- 1.0.3.2 及以上版本的遥控固件的蓝牙名称为： CyberBrick-xxxx
+- 1.0.3.2 版本以下的遥控固件的蓝牙名称为： RC_MODULE
+
+#### 步骤 2：检查电脑和手机是否在同时连接多功能主控板
+
+目前不支持电脑/手机同时连接多功能主控板。
+
+如果您曾经使用电脑连接过多功能主控板，请在电脑上关闭蓝牙或在蓝牙列表中删除该设备，再重新使用手机来连接。
+
+注：如果您是电脑无法连接多功能主控板，请检查电脑是否有蓝牙。多功能主控板与电脑也是通过蓝牙连接，不是通过数据线（com 口）来连接。
+
+#### 步骤 3：检查多功能主控板的供电
+
+电源供电不稳定也可能导致与手机/电脑连接失败。
+
+您可以依次使用下述三种供电方式：
+
+1. 使用全新的碱性电池；
+2. 将锂电池充满电；
+3. 单独拆下多功能主控板，用 Type-C 线供电；
+
+![主控.png](https://wiki.bambulab.com/cyberbrick/troubleshooting/unable-connect-control-board/%E4%B8%BB%E6%8E%A7.png)
+
+然后重启手机蓝牙尝试连接：
+
+1. 如果设备可以连接，问题可能是电源不稳定所致。建议更换全新的碱性电池，或为锂电池充满电后再尝试连接。
+2. 如果无法连接，请尝试使用其他手机重新配对设备。
+3. 若仍无法连接，可使用 CyberBrick USB 升级工具将核心板恢复至出厂固件后再尝试。
+
+请参考 [CyberBrick USB 升级工具指南](https://wiki.bambulab.com/zh/cyberbrick/troubleshooting/wired-firmware-guide) 了解如何使用 USB 升级工具。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

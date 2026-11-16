@@ -1,0 +1,98 @@
+---
+title: P2S 和 X2D 的打印机仓内有两条 LED 补光灯，分别位于 AP 板盖和前面盖上。当某一补光灯无法工作，或
+url: https://wiki.bambulab.com/zh/x2d/troubleshooting/led-fill-light-troubleshooting-guide
+category: X2D > 故障排除
+updated: 2026-08-28T06:42:55.993Z
+---
+
+### 故障描述
+
+P2S 和 X2D 的打印机仓内有两条 LED 补光灯，分别位于 AP 板盖和前面盖上。当某一补光灯无法工作，或两条补光灯都无法工作时，可参考本文进行故障排查。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔pixpin_2026-06-01_14-59-12.jpg〕 |
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 排查步骤
+
+#### 情况一：前补光灯故障
+
+首先轻轻撬开 AP 盖板。
+
+![1.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/1.jpg)
+
+找到 AP 板上的补光灯插头。
+
+![pixpin_2026-06-01_19-45-40.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/pixpin_2026-06-01_19-45-40.jpg)
+
+对调安装前补光灯和侧补光灯的线缆插头。
+
+> 按下插头顶部的防松卡扣后，即可拔下插头。
+
+![pixpin_2026-06-02_10-50-42.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/pixpin_2026-06-02_10-50-42.jpg)
+
+重新开机后观察前补光灯是否正常亮起。
+
+- 前补光灯正常亮起，侧补光灯无法亮起：前补光灯功能正常，但 AP 主板或主板上插座故障，需更换 AP 板。
+  P2S: [更换 P2S AP 板](https://wiki.bambulab.com/zh/p2s/maintenance/replace-ap-board)
+  X2D： [更换 X2D AP 板](https://wiki.bambulab.com/zh/x2d/maintenance/replace-ap-board)
+- 侧补光灯正常亮起，前补光灯无法亮起：AP 主板上的插座正常，但前补光灯存在故障，需 [更换前补光灯](https://wiki.bambulab.com/zh/p2s/maintenance/replace-led-light-front) 。
+
+#### 情况二：侧补光灯故障
+
+首先轻轻撬开 AP 盖板。
+
+![1.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/1.jpg)
+
+找到 AP 板上的补光灯插头。
+
+![pixpin_2026-06-01_19-45-40.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/pixpin_2026-06-01_19-45-40.jpg)
+
+对调安装前补光灯和侧补光灯的线缆插头。
+
+> 按下插头顶部的防松卡扣后，即可拔下插头。
+
+![pixpin_2026-06-02_10-50-42.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/pixpin_2026-06-02_10-50-42.jpg)
+
+重新开机后观察侧补光灯是否正常亮起。
+
+- 侧补光灯正常亮起，前补光灯无法亮起：侧补光灯功能正常，但 AP 主板或主板上插座故障，需更换 AP 板。
+  P2S: [更换 P2S AP 板](https://wiki.bambulab.com/zh/p2s/maintenance/replace-ap-board)
+  X2D： [更换 X2D AP 板](https://wiki.bambulab.com/zh/x2d/maintenance/replace-ap-board)
+- 前补光灯正常亮起，侧补光灯无法亮起：AP 主板上的插座正常，但侧补光灯存在故障，需 [更换侧补光灯](https://wiki.bambulab.com/zh/p2s/maintenance/replace-ap-board-cover-and-led-light-left) 。
+
+#### 情况三：两条补光灯故障
+
+检查两条补光灯的插头是否受损。
+
+|  |  |
+| --- | --- |
+| 〔3.jpg〕 | 〔4.jpg〕 |
+
+检查主板上的插座是否受损。
+
+![5.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/5.jpg)
+
+重新安装补光灯插头。
+
+![2.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/2.jpg)
+
+开机通过屏幕控制补光灯工作。
+
+![7.jpg](https://wiki.bambulab.com/x2d/troubleshooting/led-fill-light-troubleshooting-guide/7.jpg)
+
+若两补光灯无法点亮，建议更换 AP 主板。
+
+P2S: [更换 P2S AP 板](https://wiki.bambulab.com/zh/p2s/maintenance/replace-ap-board)
+X2D： [更换 X2D AP 板](https://wiki.bambulab.com/zh/x2d/maintenance/replace-ap-board)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

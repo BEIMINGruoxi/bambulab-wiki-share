@@ -1,0 +1,354 @@
+---
+title: 更换 H2 系列热床组件
+url: https://wiki.bambulab.com/zh/h2/maintenance/replace-heatbed-unit
+category: H2 系列 > H2 系列机器维护
+updated: 2026-09-09T08:38:54.789Z
+---
+
+### 热床组件
+
+打印机的热床是安装在打印机腔体内，能沿 Z 方向上下运动并能根据用户的设定温度进行加热的平台。设置合适的热床温度能有效提升模型与打印板的粘接力和防止模型翘边。
+
+![热床.jpg](https://wiki.bambulab.com/h2/maintenance/replace-hotend/%E7%83%AD%E5%BA%8A.jpg)
+
+热床组件的备件包含以下：
+
+1. 热床（预装 H2D 状态灯和喷嘴偏移校准传感器的连接线）*1
+2. M3x8 螺丝 - 用于锁热床与 Z 滑块 * 6
+3. M2x5 螺丝 - 用于锁喷嘴偏移校准传感器与热床 * 2
+4. 硅胶塞 * 2
+5. STW3x5 螺丝 - 用于锁热床的地线 * 1
+
+### 何时更换
+
+- 热床不升温， 且已排查过，确认热床故障；
+- 影响功能的物理损坏或明显的形变；
+- 经过 Bambu Lab 官方确认需要更换热床。
+
+### 所需的工具和材料
+
+- 新的热床组件
+- H2.0 内六角扳手
+- H1.5 内六角扳手
+
+### 安全提示
+
+> 重要提醒 ！
+>
+>
+>
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生电路短路从而引起额外的电子设备损坏和安全隐患。
+>
+>
+>
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+>
+>
+>
+> 如果您对本指南有任何疑问， [请联系在线技术支持 （服务时间 9:00-21:00）](https://support.bambulab.cn/cn/im) ，我们将及时回复并为您提供所需的帮助。
+
+### 移除热床
+
+#### 步骤 1：移除状态灯和喷嘴偏移校准线圈
+
+1. 状态灯通过卡扣固定在热床上，您可以先将状态灯的连接线断开连接，然后 握住状态灯两侧，从后面用力掰解锁后面的卡扣 ，当卡扣解锁后再将状态灯往后推，以解锁前面的卡扣，即可取出状态灯；
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+![20250407-115744.gif](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/20250407-115744.gif)
+
+1. 使用 H1.5 内六角扳手移除两颗喷嘴偏移校准线圈的固定螺丝（M2x5），然后向上提起校准线圈，断开连接线。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-24.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-27.png)
+
+#### 步骤 2. 移除打印机背板和废料滑梯
+
+移除排烟管转接件（若有）的 4 颗固定螺丝。
+
+![图片](https://wiki.bambulab.com/h2/laser/image-87.png)
+
+移除打印机背板固定螺丝，即可取下背板：
+
+- 红色圆圈标记的 11 颗螺丝（ST3×6）
+- 绿色方框标记的 12 颗螺丝（BT3×8）
+- 黄色方框标记的 2 颗外挂料盘固定螺丝（M3x12）
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-rear-panel/image-29.png)
+
+详细步骤您可以参考这篇 Wiki 来 [移除 H2 系列打印机背板](https://wiki.bambulab.com/zh/h2/maintenance/replace-rear-panel) 。
+
+松开下图红色圆圈的废料滑梯固定螺丝（BT3x8），向下拉，移除废料滑梯；
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤 3. 移除内置气泵（若有）
+
+若打印机为激光版，请先移除位于打印机右下角的内置气泵。
+
+![气泵位置.jpg](https://wiki.bambulab.com/h2/maintenance/built-in-air-pump/%E6%B0%94%E6%B3%B5%E4%BD%8D%E7%BD%AE.jpg)
+
+详细步骤您可以参考这篇 Wiki 以 [移除内置气泵](https://wiki.bambulab.com/zh/h2/maintenance/built-in-air-pump) 。
+
+#### 步骤 4：移除 AC 板理线盖
+
+您可以参阅这篇 Wiki 来依次移除 AC 板理线盖： [更换 H2D AC 板/AC 板理线盖](https://wiki.bambulab.com/zh/h2/maintenance/replace-ac-board-for)
+
+> 注意 ：由于更换热床不涉及 AC 板的拆装，因此您可忽略更换 AC 板的步骤。
+
+![图片](https://wiki.bambulab.com/ams-2-pro/maintenance/replace-ac-board-for/image-13.png)
+
+#### 步骤 5：断开热床连接线
+
+1. 由于热床与 MC 板的两根连接线在“ 步骤 2 ”中已经移除，您可以直接跳过这一步。热床与 MC 板连接的两个线缆为 3 和 4，分别为：
+
+- 3：喷嘴偏移校准传感器线
+- 4：状态灯连接线和热床信号线
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-25.png)
+
+1. 当加热模块供电线移除后，可以直接使用镊子顶住热床供电线接头上的卡扣，将供电线移除。依次将三根热床供电线移除；
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-26.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-21.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-23.png)
+
+1. 将热床地线从卡扣中取出并撕开泡棉，然后使用 H2.0 内六角扳手拧松一颗热床地线固定螺丝（STW3x5），将热床地线松开；
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-19.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-16.png)
+
+1. 使用 H2.0 内六角扳手拧松一颗线扣固定螺丝（BT3x12），将线扣打开，将热床线缆一起从卡扣中抽出，然后从左内衬的缝隙中抽出，最后从 Z 滑块后面的卡扣中取出。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-18.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-17.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-15.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-22.png)
+
+#### 步骤 6：移除热床
+
+1. 您可以使用 H2.0 内六角扳手或镊子先撬开热床左右两侧的两个硅胶塞，然后即可看见螺丝。使用 H2.0 内六角扳手依次拧松下图所示的六颗螺丝（M3x8）。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-20.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-43.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-44.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-40.png)
+
+1. 当所有线缆移除以及螺丝拧松后，将热床往上拿出一点，然后将热床线缆先从 Z 滑块中抽出一些，再依次将尼龙扎带中的热床线缆抽出。如果一起抽出的话，由于 Z 滑块的孔隙比较小，插头会互相干涉导致难以抽出，因此建议一次抽出一根连接线，然后直到将所有的线缆移除。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-42.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-41.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-39.png)
+
+### 安装热床
+
+#### 步骤 1：安装热床
+
+1. 接下来您需要将热床线缆依次穿过 Z 滑块的小孔，再将剩余的线缆先对折然后拉出；
+  首先您可以将红色线缆穿过。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+由于孔内较为狭窄需要剥离两个 蓝色 和 棕色 线缆硅胶套，并依次穿过小孔。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+![pixpin_2025-04-07_19-53-27.png](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/pixpin_2025-04-07_19-53-27.png)
+
+送入红、蓝、棕色线缆后，将 剩余线缆弯折 送入小孔并从另外一端拉出。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+![mnggiflab-compressed-送入.gif](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/mnggiflab-compressed-%E9%80%81%E5%85%A5.gif)
+
+完成后的状态如下图所示。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-36.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-35.png)
+
+1. 将打印机稍微倾斜或悬空（ 请注意扶稳打印机，避免打印机跌落导致损伤 ），手动拉动皮带使得三个 Z 滑块下降至底部。在拉动皮带的过程中同时也请将热床立着，避免滑块在下降的时候与热床干涉；
+
+> 注：您可以先来回拉动皮带，确认下降的方向。
+
+逐步下调 Z 轴滑块，直到其降至最低位置。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-31.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-34.png)
+
+1. 然后使用 H2.0 内六角扳手拧紧左右 2 颗 Z 轴滑块固定螺丝（M3x35x8）；
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-30.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-33.png)
+
+1. 先将热床线缆完全穿过 Z 轴滑块，再将热床对准 3 个 Z 轴滑块，依次拧紧 6 颗固定螺丝（M3x8）。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-59.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-58.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-54.png)
+
+1. 塞入前 Z 轴滑块的硅胶塞。
+
+![image-111.png](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-101.png)
+
+#### 步骤 2：移除 Z 轴滑块固定螺丝，抬升热床
+
+1. 使用 H2.0 内六角扳手移除 4 颗 Z 轴滑块固定螺丝（M3x35x8）。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-120.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-121.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-122.png)
+
+2.将打印机稍微倾斜或悬空（ 请注意扶稳打印机，避免打印机跌落导致损伤 ），手动拉动皮带使得三个 Z 滑块下降至底部。在拉动皮带的过程中同时也请将热床立着，避免滑块在下降的时候与热床干涉；
+
+> 注：您可以先来回拉动皮带，确认上升的方向。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-93.png)
+
+#### 步骤 3：连接热床连接线
+
+1. 将热床线缆依次放入线扣中，然后使用 H2.0 内六角扳手拧紧一颗线扣固定螺丝（ST3x12）；
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-55.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-56.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-57.png)
+
+1. 将热床电源线有卡扣的一侧朝外，依次将三根电源线（棕色、蓝色、红色）与 AC 板连接；
+
+> 请参考下图连接，左上为棕色、右上为蓝色、下方为红色。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-52.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-53.png)
+
+1. 将原有的热床地线固定螺丝穿过地线的小孔，然后使用 H2.0 内六角扳手将热床锁在打印机底座上，并将地线扣入内衬的线扣中，贴好泡棉；
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-51.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-50.png)
+
+1. 与 MC 板连接的热床信号线和状态灯连接线将在“ 步骤 4 ”中安装。
+
+#### 步骤 4：安装 AC 板理线盖
+
+您可以查看 Wiki 以安装 AC 板理线盖： [更换 H2D AC 板/AC 板理线盖](https://wiki.bambulab.com/zh/h2/maintenance/replace-ac-board-for)
+
+![图片](https://wiki.bambulab.com/ams-2-pro/maintenance/replace-ac-board-for/image-13.png)
+
+#### 步骤 5：安装内置气泵（若有）
+
+若打印机为激光版，请重新安装位于打印机右下角的内置气泵。
+
+![气泵位置.jpg](https://wiki.bambulab.com/h2/maintenance/built-in-air-pump/%E6%B0%94%E6%B3%B5%E4%BD%8D%E7%BD%AE.jpg)
+
+详细步骤您可以参考这篇 Wiki 以 [安装内置气泵](https://wiki.bambulab.com/zh/h2/maintenance/built-in-air-pump) 。
+
+> 注意正确放置热床线，以防有阻碍物，影响热床正常移动。
+>
+>
+> ![热床线缆.jpg](https://wiki.bambulab.com/h2/maintenance/built-in-air-pump/%E7%83%AD%E5%BA%8A%E7%BA%BF%E7%BC%86.jpg)
+
+#### 步骤 6： 安装废料滑梯和背板
+
+对准废料滑梯下方 2 个卡扣位置，往前推，使这 2 个卡扣与内衬上的孔洞咬合。装回后，需检查螺丝孔位是否对齐；
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+> 注：在安装废料滑梯的时候，需要注意将废料滑梯的两侧扣在内衬的外侧，如果扣在内侧可能无法正常安装。
+>
+>
+>
+> ![图片](https://wiki.bambulab.com/h2/maintenance/replace-purge-chute/image-22.png)
+
+重新安装 1 颗废料滑梯固定螺丝（BT3x8），如图示红色圆圈标注。
+
+![remove_purge_screws1.jpg](https://wiki.bambulab.com/h2/maintenance/replace-inner-lining-left/remove_purge_screws_1xx.jpg)
+
+重新拧上打印机背板固定螺丝，即可安装背板：
+
+- 红色圆圈标记的 11 颗螺丝（ST3×6）
+- 绿色方框标记的 12 颗螺丝（BT3×8）
+- 黄色方框标记的 2 颗外挂料盘固定螺丝（M3x12）
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-rear-panel/image-29.png)
+
+详细步骤您可以参考这篇 Wiki 来 [安装 H2 系列打印机背板](https://wiki.bambulab.com/zh/h2/maintenance/replace-rear-panel) 。
+
+重新安装排烟管转接件（若有）的 4 颗固定螺丝。
+
+![图片](https://wiki.bambulab.com/h2/laser/image-87.png)
+
+#### 步骤 7：安装状态灯和喷嘴偏移校准线圈
+
+1. 状态灯上有两排卡扣，靠前的一排卡扣较长，您可以先将这一排卡扣对准热床上的孔位，插入后往前拉将卡扣扣入，然后再拿出状态灯往上扣，将后排的卡扣也扣到位，最后重新连接线缆；
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-49.png)
+
+![20250407-115807.gif](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/20250407-115807.gif)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-45.png)
+
+1. 将喷嘴偏移校准线圈与热床连接线连接，并使用 H1.5 内六角扳手拧紧两颗喷嘴偏移校准线圈的螺丝（M2x5）。
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-47.png)
+
+![图片](https://wiki.bambulab.com/h2/maintenance/replace-heatbed-unit/image-46.png)
+
+#### 步骤 8：高温热床调平
+
+更换热床后，为避免打印机工作异常，需完成一次高温热床调平。请点击屏幕“ 设置 ”>“ 校准 ”>“ 打印校准 ”，勾选“ 高温热床调平 ”，开始校准。
+
+![校准.jpg](https://wiki.bambulab.com/h2/maintenance/replace-mc-board/%E6%A0%A1%E5%87%86.jpg)
+
+### 如何验证成功
+
+连接电源线并打开电源，发起一次打印，确认热床功能是否正常。
+
+### 螺丝规格&数量
+
+更换 H2D 热床所涉及的螺丝规格及数量（建议妥善保管拆下的螺丝，避免丢失）：
+
+| 螺丝规格 | 螺丝图片 | 用途 | 位置示意图 |  | 螺丝数量 |
+| --- | --- | --- | --- | --- | --- |
+| BT3x8 |  | 用于固定背板（绿色方框标记） | 〔图片〕 |  | 12 |
+|  |  | 用于固定废料滑梯 | 〔图片〕 |  | 1 |
+|  |  | 用于固定 AC 板理线盖 | 〔图片〕 |  | 1 |
+| ST3x8 |  | 用于固定背板（红色圆圈标记） | 〔图片〕 |  | 11 |
+| ST3x12 |  | 用于固定料盘支架底座（黄色方框标记） | 〔图片〕 |  | 2 |
+| BT3x12 |  | 用于固定线扣 | 〔图片〕 |  | 1 |
+| STW3x5 |  | 用于固定地线 | 〔图片〕 |  | 1 |
+| M2x5 |  | 用于固定喷嘴偏移校准线圈 | 〔图片〕 |  | 2 |
+| M3x6 |  | 用于固定热床 | 〔图片、图片…〕 |  | 6 |
+| M3x35x8 |  | 用于固定 Z 滑块 | 〔图片、图片…〕 |  | 4 |
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

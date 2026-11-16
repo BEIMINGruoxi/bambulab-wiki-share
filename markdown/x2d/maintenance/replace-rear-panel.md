@@ -1,0 +1,158 @@
+---
+title: 更换 X2D 的背板
+url: https://wiki.bambulab.com/zh/x2d/maintenance/replace-rear-panel
+category: X2D > 维护保养
+updated: 2026-11-05T04:16:38.618Z
+---
+
+### 背板
+
+SKU: FAS081 背板版本孔位变更，后续外排风扇左侧是2个孔的，无 SKU 变更
+
+安装在打印机背面的金属板，起到封闭作用。
+
+![x2d_rear_panel.png](https://wiki.bambulab.com/x2d/maintenance/replace-rear-panel/x2d_rear_panel.png)
+
+> ℹ️ 提示 ：由于工艺迭代，新版本的背板取消左侧外排风扇的开孔（图中蓝框所示）。该变更不影响背板功能与拆装步骤。
+
+### 适用打印机型号
+
+X2D
+
+### 何时更换
+
+背板因运输或维修，导致明显的变形，影响使用或安装。
+
+### 所需要工具和材料
+
+- 新的背板
+- H2.0 内六角扳手
+- 拆装过程中所涉及的螺丝（建议妥善保管拆下的螺丝，避免丢失）
+- 黄色标记螺丝：BT3-6
+- 红色标记螺丝：ST3-4.5
+- 绿色标记螺丝：M3-4.5
+
+![背板螺丝.jpg](https://wiki.bambulab.com/x2d/maintenance/replace-rear-panel/%E8%83%8C%E6%9D%BF%E8%9E%BA%E4%B8%9D.jpg)
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 视频教程
+
+### 移除旧的背板
+
+#### 步骤 1. 移除外排风扇套件
+
+移除外排风扇套件上的 4-pin 线，然后向右推动外排风扇套件，解除卡扣锁定并取下外排风扇。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤 2. 移除缓冲器
+
+请参考 [这篇 Wiki](https://wiki.bambulab.com/zh/x2d/maintenance/replace-filament-buffer) 移除背板上的缓冲器。
+
+![003_buffer.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/003_buffer.png)
+
+#### 步骤 3. 移除辅助挤出机
+
+请参考 [这篇 Wiki](https://wiki.bambulab.com/zh/x2d/maintenance/replace-auxiliary-extruder) 移除背板上的辅助挤出机。
+
+![004_auxiliary_extruder.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/004_auxiliary_extruder.png)
+
+#### 步骤 4. 移除料管支架
+
+将料管支架向右推动，解锁卡扣。
+
+![005_remove_tube_connector.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/005_remove_tube_connector.png)
+
+将料管支架向外拉出后，按压气动接头，解锁料管。
+
+![006_push_tube_connector.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/006_push_tube_connector.png)
+
+#### 步骤 5. 移除背板
+
+移除 4 颗黄色标识的螺丝。
+
+![007_4bt_screws.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/007_4bt_screws.png)
+
+如下图，移除用绿色标识的 1 颗螺丝，然后再移除用红色标识的 9 颗螺丝。
+
+![rear_panel.png](https://wiki.bambulab.com/x2d/maintenance/replace-rear-panel/rear_panel.png)
+
+移除固定料盘支架底座的螺丝，移除料盘支架底座。
+
+![remove_base_screws.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/remove_base_screws.png)
+
+避让料管，取下背板。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+### 安装新的背板
+
+#### 步骤 1. 安装背板
+
+让料管从安装料管支架的位置穿过，将背板对齐边缘和螺丝孔，安装到打印机背部。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+区分出绿色标识的 1 号位置螺丝，并锁附该处的螺丝，然后锁上红色标识的 9 颗螺丝。
+
+![rear_panel.png](https://wiki.bambulab.com/x2d/maintenance/replace-rear-panel/rear_panel.png)
+
+安装料盘支架底座，锁入 2 颗螺丝固定。
+
+![remove_base_screws.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/remove_base_screws.png)
+
+在橙色标识的 4 个位置，依次锁入4颗螺丝。
+
+![007_4bt_screws.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/007_4bt_screws.png)
+
+#### 步骤 2. 安装料管支架
+
+将料管支架和特氟龙进料管连接，然后从背板的孔中穿过料管支架。
+
+![011_install_tube.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/011_install_tube.png)
+
+然后向左推动料管支架，使其扣上卡扣固定。
+
+![012_install_tube_connector.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/012_install_tube_connector.png)
+
+#### 步骤 3. 安装辅助挤出机
+
+请参考 [这篇 Wiki](https://wiki.bambulab.com/zh/x2d/maintenance/replace-auxiliary-extruder) 安装背板上的辅助挤出机。
+
+![004_auxiliary_extruder.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/004_auxiliary_extruder.png)
+
+#### 步骤 4. 安装缓冲器
+
+请参考 [这篇 Wiki](https://wiki.bambulab.com/zh/x2d/maintenance/replace-filament-buffer) 安装背板上的缓冲器。
+
+![003_buffer.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/replace_rear_panel/003_buffer.png)
+
+#### 步骤 5. 安装外排风扇套件
+
+将外排风扇套件安装到背板上，然后向左推动外排风扇套件，使卡扣卡稳。可以用手摇晃一下外排风扇，看是否安装到位。然后安装好 4-pin 线。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+> ℹ️ 提示 ：外排风扇套件存在两个版本，新版本取消了 2卡扣。若需将 3 卡扣版本的外排风扇安装到 2 孔位的背板上，掰断外排风扇的 2卡扣即可。
+>
+>
+> ![x2d_external_exhaust_fan.png](https://wiki.bambulab.com/x2d/maintenance/replace-rear-panel/x2d_external_exhaust_fan.png)
+
+### 功能验证
+
+- 检查螺丝无漏装、无浮起
+- 背板无明显变形
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

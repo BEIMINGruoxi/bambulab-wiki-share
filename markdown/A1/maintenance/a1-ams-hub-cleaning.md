@@ -1,0 +1,137 @@
+---
+title: 拆解和清洁 A1 系列料线选通器
+url: https://wiki.bambulab.com/zh/a1/maintenance/a1-ams-hub-cleaning
+category: A1 > A1 产品保养与维修
+updated: 2026-08-28T06:48:27.381Z
+---
+
+### 料线选通器
+
+料线选通器是 A1 系列打印机连接 AMS、AMS 2 Pro 及 AMS HT 的重要配件。由于 AMS 在打印过程中会有内部助力电机参与推送耗材，该料线选通器的作用正是调节由此产生的材料张力，将其稳定在合适范围，确保挤出机能精准顺畅地工作。
+
+![a1_ams_hub_cleaning_cover.png](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/a1_ams_hub_cleaning_cover.png)
+
+> 料线选通器的使用指南请参考 Wiki : [A1 系列 AMS 连接教程](https://wiki.bambulab.com/zh/a1/manual/ams-connection-guide)
+
+### 适用打印机型号
+
+A1、A1 mini
+
+### 何时使用
+
+- 料线选通器送料时出现异响；
+- 耗材送达料线选通器后又退回，无法通过；
+- 料线选通器无法固定特氟龙料管。
+
+### 所需要的工具和材料
+
+- 撬棒/平头镊子/一字螺丝刀
+- 润滑脂
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 拆解料线选通器
+
+#### 步骤一：断开连接线
+
+关闭打印机，断开料线选通器上的 4-pin 连接线和 6-pin 连接线。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤二：断开铁氟龙料管并取下料线选通器
+
+按压料线选通器顶部和底部的黑色圆环，取下所有料管。
+
+![remove_ptfe.png](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/remove_ptfe.png)
+
+沿着支架向上滑动取下料线选通器。
+
+![图片](https://wiki.bambulab.com/a1/ams-connection-guide/image-14.png)
+
+#### 步骤三：撬开料线选通器顶部盖子
+
+用一字螺丝刀沿盖子缝隙处撬开料线选通器顶部盖子，然后取下盖子。
+
+> 注意 ：一字螺丝刀锋利，操作时动作轻缓谨防划伤。操作时需轻按住盖子，防止内部弹簧弹出。
+
+![pry_top_cover.webp](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/pry_top_cover.webp)
+
+#### 步骤四：取出断料并润滑
+
+取出滑块及弹簧，检查内部是否有断料。
+
+![remove_spring.png](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/remove_spring.png)
+
+取出断料后，将润滑脂涂抹于滑块底部。磁铁处无需润滑，操作时 注意避开磁铁处 。
+
+![apply_grease.webp](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/apply_grease.webp)
+
+#### 步骤五：取出金属弹片
+
+> 注意：该步骤适用于 料线选通器无法固定特氟龙料管 的情况，如果您的料线选通器不存在该情况，请跳过。
+
+##### 1. 撬开底部盖子
+
+用一字螺丝刀沿盖子缝隙处撬开料线选通器底部盖子卡扣，然后取下盖子。
+
+> 注意 ：一字螺丝刀锋利，操作时动作轻缓谨防划伤。操作时需轻按住盖子，防止金属弹片弹出。
+
+![pry_bottom_cover.webp](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/pry_bottom_cover.webp)
+
+##### 2. 取出金属弹片
+
+将有咬合齿的一面放在平面上，咬合齿尖锐，避免在后续操作中损坏打印板。
+
+![fix-metal-plate](https://wiki.bambulab.com/a1/troubleshooting/ams-lite-hub-holding-tube-fail/fix-spring.jpg)
+
+##### 3. 用打印板轻轻按压咬合弹片
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+### 安装料线选通器
+
+#### 步骤一：安装金属弹片
+
+> 注意：该步骤适用于 料线选通器无法固定特氟龙料管 的情况，如果您的料线选通器不存在该情况，请跳过。
+
+若拆装时，四进一组件不慎弹出，重新放回时需注意对齐料线选通器四个卡槽。
+
+![replace_metal_plate.png](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/replace_metal_plate.png)
+
+##### 2. 安装底部盖子
+
+重新安装底部盖子，安装时注意对齐三面卡扣。
+
+![install_bottom_cover.png](https://wiki.bambulab.com/a1/maintenance/a1-ams-hub-cleaning/install_bottom_cover.png)
+
+#### 步骤二：安装滑块及顶部盖子
+
+将滑块磁铁一侧沿着料线选通器卡槽安装，然后重新安装顶部盖子。安装时，注意对齐三面卡扣。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+#### 步骤三：安装料线选通器及铁氟龙料管
+
+将料线选通器出口朝上，侧面凸起部分沿支架的凹槽向下滑动并扣合；重新连接顶部及底部的铁氟龙料管。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤四：重新安装连接线
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

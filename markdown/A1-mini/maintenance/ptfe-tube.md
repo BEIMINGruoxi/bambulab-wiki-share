@@ -1,0 +1,51 @@
+---
+title: A1 系列产品料管更换指引
+url: https://wiki.bambulab.com/zh/a1-mini/maintenance/ptfe-tube
+category: A1 mini > 维护保养
+updated: 2026-11-10T06:25:17.500Z
+---
+
+料管在使用一段时间后，需要进行更换，平时在进行产品维修时，也可能需要断开料管。连接料管的操作在相关产品的开箱指引中已有说明，这里不再重复。这里主要为大家展示如何从五通接头和 AMS lite 上拆下料管。
+
+### 了解料管规格
+
+- 直径：外径 4mm， 内径 2.5mm
+- 长度：
+
+A1mini：AMS Lite 至五通长度 580mm×2，700mm×2（外挂料盘支架至五通管长：520mm）
+
+A1：AMS lite 至五通长度 730mm×2，830mm×2
+
+![图片](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/assembly-ams14.png)
+
+### 从五通组件上移除料管
+
+五通组件上方密集地分布了 4 个料管接口，建议利用镊子或我们提供的辅助拆除料管的打印模型，将料管从五通组件上移除。
+
+#### 使用镊子移除料管
+
+如下视频所示：用镊子将五通组件上的料管接头下压进行解锁，然后用手握住料管先往五通方向轻推一下，再用力拔出料管，重复操作可以将料管逐一拔出。
+
+[disconnect_the_ptfe_tube_from_the_hub.mp4](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/disconnect_the_ptfe_tube_from_the_hub.mp4)
+
+#### 使用辅助拆除模型移除料管
+
+点击 [3mf 文件](https://public-cdn.bblmw.com/wiki/new/a1/refresh_assets/ptfe_tool.3mf) 下载辅助工具模型。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+### 从 AMS lite 上移除料管
+
+从 AMS lite 的上下料接口上移除料管的操作比较简单，用手按压下料管接头后，拔出料管即可。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

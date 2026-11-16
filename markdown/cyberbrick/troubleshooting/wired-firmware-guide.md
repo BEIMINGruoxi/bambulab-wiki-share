@@ -1,0 +1,48 @@
+---
+title: CyberBrick USB 升级工具指南
+url: https://wiki.bambulab.com/zh/cyberbrick/troubleshooting/wired-firmware-guide
+category: CyberBrick > 故障排除
+updated: 2026-09-23T04:30:16.815Z
+---
+
+> 本指南说明了如何使用 CyberBrick 软件内置的 「USB 升级工具」功能，为 CyberBrick 核心板更新固件或恢复出厂设置。CyberBrick 是一个基于微控制器的多功能平台，适用于遥控（RC）套件和延时摄影套件等应用。
+
+### 开始前准备
+
+- 软件： 打开 [CyberBrick 桌面应用](https://bambulab.com/zh/download/cyberbrick-apps) 的 「 USB 升级工具 」
+  ![图片](https://wiki.bambulab.com/cyberbrick/troubleshooting/wired-firmware-guide/cyberbrick_zh_usbtool.jpg)
+- 硬件： CyberBrick 多功能主控板（核心板）和数据线
+
+### 软件界面
+
+1. `RC framework 升级`：恢复出厂设置。单击将重置为 RC 应用（遥控套件）。
+2. `延时摄影套件升级`：恢复出厂设置。单击将重置为延时摄影应用（延时摄影套件）。
+3. `恢复出厂设置`：重置用户设置信息。单击将清空用户设置信息，包含PIN码，设备命名，主从绑定信息等。
+
+![usb-pic1.png](https://wiki.bambulab.com/cyberbrick/troubleshooting/usb-pic1.png)
+
+1. `刷新`：单击以刷新串口设备列表。
+
+![usb-pic2.png](https://wiki.bambulab.com/cyberbrick/troubleshooting/usb-pic2.png)
+
+### 如何刷入
+
+1. 断开核心板与电池的连接。
+2. 保持按住核心板的“KEY”按键，通过Type-C数据线接入电脑后 2秒 再松开“KEY”按键。
+
+![usb-pic3.png](https://wiki.bambulab.com/cyberbrick/troubleshooting/usb-pic3.png)
+
+1. 确认此时核心板的 LED 是熄灭状态。
+
+![usb-pic4.png](https://wiki.bambulab.com/cyberbrick/troubleshooting/usb-pic4.png)
+
+1. 点击''刷新''，左侧将会出现新的 COM 端口。
+2. 选择新出现的 COM 端口，然后点击下方对应的固件刷新按钮（遥控套件选择“RC framework 升级”，延时摄影套件选择“延时摄影套件升级”，清除 PIN 码选择“恢复出厂设置”）。等待固件刷新完成。
+3. 如果接入Type-C数据线后，检索不到COM 端口，请检查并更换数据线。
+4. 如果刷入失败，请按上述步骤重试或联系客户服务团队。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

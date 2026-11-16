@@ -1,0 +1,9 @@
+https://wiki.bambulab.com/zh/a2l/troubleshooting/hmscode/0300_0D00_0001_000B	HTTP 404
+https://wiki.bambulab.com/zh/ams3p/maintenance/replace-chamber	HTTP 404
+https://wiki.bambulab.com/zh/ams3p/manual/workflow-and-features	HTTP 404
+https://wiki.bambulab.com/zh/ams3p/manual/component-introduction	HTTP 404
+https://wiki.bambulab.com/zh/ams3p/maintenance/replace-ams3	HTTP 404
+https://wiki.bambulab.com/zh/cyberbrick/staging	HTTP 403
+https://wiki.bambulab.com/zh/filament/x2d-dissimilar-filament-support	HTTP 404
+https://wiki.bambulab.com/zh/h2c/troubleshooting/hmscode/0700_8800_0002_0003	HTTP 404
+https://wiki.bambulab.com/zh/p3c/manual/swaptek-workflow-and-function	HTTP 403

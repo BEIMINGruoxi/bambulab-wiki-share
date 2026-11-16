@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 BEIMINGruoxi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+NOTE ON SCOPE / 适用范围说明
+
+This license applies ONLY to the source code in this repository
+(kb_search.py, mcp_server.py, and all files under scripts/).
+
+It does NOT apply to the scraped Wiki content stored in this repository
+(incl. bambulab_wiki_zh.db, *.jsonl, markdown/, and any derived text).
+All such content is the property of Bambu Lab and is included solely as a
+technical archive; no rights are claimed or granted over it.
+
+本许可仅覆盖本仓库自行编写的代码（kb_search.py、mcp_server.py 及 scripts/
+目录下的文件），不覆盖被收录的 Bambu Lab Wiki 内容（含 *.db、*.jsonl、
+markdown/ 等及其衍生文本）。上述内容著作权归 Bambu Lab 所有，本仓库
+不对其主张任何权利，亦不授予他人任何许可。

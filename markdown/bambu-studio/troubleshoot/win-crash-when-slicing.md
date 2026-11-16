@@ -1,0 +1,60 @@
+---
+title: Windows系统切片崩溃故障排查
+url: https://wiki.bambulab.com/zh/bambu-studio/troubleshoot/win-crash-when-slicing
+category: Bambu Studio > Bambu Studio故障排查
+updated: 2026-08-28T08:29:08.534Z
+---
+
+### 问题现象
+
+使用 Windows 系统时，在 Bambu Studio 中通过点击“切片单盘”、“切片所有盘”、切换到“预览”页面，对 .3mf 文件进行切片，切片过程中 Bambu Studio 可能会崩溃或者闪退。
+
+### GPU 线程优化异常
+
+如果您的电脑使用的是 NVIDIA 的 GPU 其中的多线程优化可能会导致 Bambu Studio 切片过程出现崩溃，您可以通过以下方法将其关闭。
+
+在 NVIDIA 控制面板中，进入“ 3D 设置 → 管理 3D 设置 → 程序设置 ”，将 Bambu Studio 添加到程序列表。找到名为“ 线程优化 ”的设置并将其 关 。
+
+![zh.jpg](https://wiki.bambulab.com/software/bambu-studio/zh.jpg)
+
+> 如果您在电脑中并没有找到 NVIDIA 控制面板，可以通过此微软应用商店下载安装 [NVIDIA 控制面板。](https://apps.microsoft.com/detail/9nf8h0h7wmlt?hl=zh-TW&gl=TW) 或者通过 [NVIDIA 官方网站](https://www.nvidia.cn/drivers/lookup/) 更新最新版本驱动。
+
+### CPU 不能稳定支持超线程
+
+该问题很可能是超频 CPU 不能稳定支持多线程导致的，可以参考以下面的方法解决。
+
+#### 方法一
+
+步骤 1. 按 Ctrl + Shift + Escape 打开任务管理器。
+
+步骤 2. 点击“详细信息”页签。
+
+![图片](https://wiki.bambulab.com/bambu-studio/troubleshoot/win-crash-when-slicing/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%99%A8%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF.png)
+
+步骤 3.找到 bambu-studio.exe，右键选择“设置相关性”。
+
+![图片](https://wiki.bambulab.com/bambu-studio/troubleshoot/win-crash-when-slicing/%E8%AE%BE%E7%BD%AE%E7%9B%B8%E5%85%B3%E6%80%A7.png)
+
+步骤 4. 在弹出的“处理器相关性”窗口中，取消选择“所有处理器”，仅选择一部分CPU即可。例如选择 CPU 0 到 CPU 3，或者 CPU 0 到 CPU 7。
+
+![图片](https://wiki.bambulab.com/bambu-studio/troubleshoot/win-crash-when-slicing/%E5%A4%84%E7%90%86%E5%99%A8%E7%9B%B8%E5%85%B3%E6%80%A7.png)
+
+步骤 5. 点击“确定”。再次尝试在 Bambu Studio 中切片，观察是否还会出现崩溃或闪退。
+
+#### 方法二（适用于英特尔处理器）
+
+步骤 1. 下载并安装“Intel extreme tuning utility”。
+
+步骤 2. 选择“Advanced Tuning > Benchmarking”。
+
+步骤 3. 将“Performance Active-Core Tuning”下的所有选项设置为“54x”，然后点击“应用”。
+
+![图片](https://wiki.bambulab.com/bambu-studio/troubleshoot/win-crash-when-slicing/%E6%94%B9%E4%B8%BA54.png)
+
+步骤 4. 再次尝试在 Bambu Studio 中切片，观察是否还会出现崩溃或闪退。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

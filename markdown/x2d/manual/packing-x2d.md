@@ -1,0 +1,211 @@
+---
+title: X2D 装箱指南
+url: https://wiki.bambulab.com/zh/x2d/manual/packing-x2d
+category: X2D > 使用手册
+updated: 2026-08-28T06:41:20.447Z
+---
+
+### 装箱提示
+
+规范打包是避免运输损伤最有效的方式，能最大程度地保障货物安全、减少不必要的经济损失。
+
+> 为确保您的设备安全抵达目的地，我们特别提醒您:
+>
+>
+>
+> - 请检查所有螺丝是否拧紧 ，防止元件松动。
+> - 请确认缓冲海绵是否放置到位 ，充分保护设备。
+
+### 视频指南
+
+### 操作步骤
+
+#### 1. 退料、下降热床、关闭电源
+
+- 屏幕点击退料，将料盘支架上的耗材卷回料盘并拿下。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 放回热床底部的泡棉。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-2.png)
+
+- 使用屏幕控制热床下降至底部，压紧泡棉。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+> 注意：热床接近底部时，请每次降低 1mm ，防止热床冲撞打印机底部。
+
+- 关闭电源，拔下电源线。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 2. 移除外排套装
+
+- 移除 6-pin 连接线。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 按压外排风扇后右滑解锁，向外取出风扇。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 3. 移除料盘支架
+
+- 按压气动接头，拔出铁氟龙料管。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-10.png)
+
+- 向外拉动移除料盘支架。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-remove-spool-holder.png)
+
+- 上下晃动支架进行拆解。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-unintall-spool-holder.webp)
+
+- 移除另一个料盘支架。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 4. 移除辅助挤出机
+
+- 按压气动接头，拔出白色料管。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-13.png)
+
+- 取下蓝色固定片。按压气动接头，拔出灰色料管。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-14.png)
+
+- 按压气动接头，拔出灰色料管，装回固定片。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 使用开口六角扳手拧松挤出机左侧螺母。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-17.png)
+
+- 将辅助挤出机上抬后向外轻拉。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-18.png)
+
+- 拔出左侧料管。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-19.png)
+
+- 滑出挡片，拔出连接线缆。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 装回挡片。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-22.png)
+
+- 用胶带固定背板上的线缆及料管。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 5. 移除屏幕
+
+- 按压屏幕转轴底部的解锁位，右推屏幕后向外轻拉。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 按住排线两侧的端子取下屏幕。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 用胶布固定排线。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-27.png)
+
+#### 6. 固定工具头、丝杆、热床
+
+- 绑紧工具头扎带。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-28.png)
+
+- 放回光杆后的泡棉，拉动工具头压紧泡棉。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 在图示位置绑紧扎带。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 安装两个丝杆保护件。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 放回干燥剂。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-34.png)
+
+- 放回 2 个丝杆固定件。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 拧紧 3 颗热床固定螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-heatbed-screws-x2d.png)
+
+#### 7. 固定打印机并装箱
+
+- 放回把手泡棉，套上前门保护袋，并用胶带固定。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 将所有配件放回纸卡。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 将纸卡置于打印机顶部。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-39.png)
+
+- 给玻璃上盖套上保护袋，放至打印机顶部并用胶带固定。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-40.png)
+
+- 用胶带固定铁氟龙料管，套好防潮袋并密封。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 将打印机放回外箱，将缓冲气垫放至打印机四周。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 放回顶部泡棉、纸卡、工具盒。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+- 用胶带封住外箱。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/manual/packing-x2d/packing-x2d-image-47.png)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

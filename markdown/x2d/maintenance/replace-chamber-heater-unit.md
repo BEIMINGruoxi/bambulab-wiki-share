@@ -1,0 +1,127 @@
+---
+title: 更换 X2D 的腔温加热组件
+url: https://wiki.bambulab.com/zh/x2d/maintenance/replace-chamber-heater-unit
+category: X2D > 维护保养
+updated: 2026-08-28T06:38:51.933Z
+---
+
+### 腔温加热组件
+
+腔温加热组件由PTC加热片和腔体加热风扇组成，PTC 加热片用做腔室的主动热源，风扇在切换成低温模式时可作为辅助部件风扇使用。
+
+> 腔温加热组件有区分高压版本和低压版本，与AC 板要配套使用，不可用错！
+
+### 适用打印机型号
+
+X2D
+
+### 何时更换
+
+- 腔温加热组件异响/损坏
+- 腔温加热功能异常
+
+### 所需要工具和材料
+
+- 新的腔温加热组件
+- H1.5 内六角扳手
+- H2.0 内六角扳手
+
+### 视频教程
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 移除旧的腔温加热组件
+
+#### 步骤 1. 移除背板
+
+参考 [更换 X2D 背板](https://wiki.bambulab.com/zh/x2d/maintenance/replace-rear-panel) 的相关指引，移除料管支架、缓冲器及背板。
+
+#### 步骤 2. 断开线缆
+
+使用 H1.5 内六角扳手移除四颗固定螺丝（BT2x5），然后将废料滑梯取下。
+
+![002_remove_purge_chute.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/002_remove_purge_chute.jpg)
+
+按住线缆接头的卡扣，将通信线缆从 MC 板上断开连接，
+
+![003_mc_board_cable.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/003_mc_board_cable.png)
+
+按住线缆接头的卡扣，将供电线从AC板上断开。
+
+![004_ac_board_cable.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/004_ac_board_cable.png)
+
+将通信线从线缆理线扣中取出，
+
+![005_mc_cable_clip_.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/005_mc_cable_clip_.png)
+
+将供电线从两个线缆理线扣中取出。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤 3. 移除腔温加热组件
+
+侧向抬起打印机，朝顺时针的方向拉动 Z 皮带，将热床升高调整至约半高的位置，露出3颗固定螺丝。
+
+![007_lift_printer.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/007_lift_printer.png)
+
+使用 H2.0 内六角扳手移除 3 颗螺丝。
+
+![007_chamber_unit_screws.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/007_chamber_unit_screws.jpg)
+
+再次侧向抬起打印机，朝逆时针的方向拉动 Z 皮带，将热床降低至底部。
+
+![008_move_heatbed.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/008_move_heatbed.png)
+
+掰动腔温加热组件，并沿斜向上的方向提起，小心将组件取出，如果取出困难，请检查线缆是否已经从线缆理线扣中取出。
+
+![009_remove_chamber_unit.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/009_remove_chamber_unit.png)
+
+### 安装新的腔温加热组件
+
+#### 步骤 1. 安装腔温加热组件
+
+将线缆穿过内衬与侧板间的小孔，从背面将线缆拉扯过去。
+
+![010_cable_hole.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/010_cable_hole.png)
+
+然后将腔温加热组件的下部装到底座上，顶部向横梁位置装好，
+
+![011_install_chamber_unit.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/011_install_chamber_unit.png)
+
+再向打印机背部推动，使组件与内衬能完全贴合没有缝隙。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+侧向抬起打印机，拉动Z皮带，将热床调整至约半高的位置，
+
+![007_lift_printer.png](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/007_lift_printer.png)
+
+使用 H2.0 内六角扳手拧紧三颗螺丝。
+
+![007_chamber_unit_screws.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/maintenance/remove_chamber_heater_unit/007_chamber_unit_screws.jpg)
+
+#### 步骤 2. 连接线缆
+
+分别将通信线缆和供电线缆连接到MC板和AC板上，然后将线缆卡在对应的理线扣中。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 步骤 3. 安装背板
+
+参考 [更换 X2D 背板](https://wiki.bambulab.com/zh/x2d/maintenance/replace-rear-panel) 的相关指引，安装料管支架、缓冲器及背板。
+
+### 功能验证
+
+- 在屏幕上设置腔温加热，检查是否可以正常加热。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

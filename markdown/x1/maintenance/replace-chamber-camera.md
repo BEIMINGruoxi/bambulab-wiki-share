@@ -1,0 +1,54 @@
+---
+title: 更换机箱摄像头
+url: https://wiki.bambulab.com/zh/x1/maintenance/replace-chamber-camera
+category: X1 系列 > X1 系列机器维护
+updated: 2026-11-03T09:26:02.686Z
+---
+
+> 提示 ：摄像头仅用于打印机相关功能。请确保摄像头已正确安装，使摄像头视野正确朝向打印区域，以避免对打印区域或喷嘴的检测出现问题。
+
+### 更换机箱摄像头
+
+X1C 中包含了舱内摄像头，您也可以选择性为 X1 安装摄像头来升级。该相机会将视频反馈到 Bambu Studio 和 Bambu Handy 中，并可以提供 [炒面检测](https://wiki.bambulab.com/zh/knowledge-sharing/Spaghetti_detection) ，AI 检测打印失败等功能。您可以按照下面的指导来更换或安装X1系列打印机中的摄像头。
+购买链接：
+[京东](https://item.jd.com/10059355867631.html)
+[天猫](https://detail.tmall.com/item.htm?abbucket=8&id=693195240971&rn=4929f88a8c59cc32c108e15d619a8cad&spm=a1z10.3-b-s.w4011-25177047232.133.73aa1c79KTBH4P&skuId=4922941492977)
+
+![20251119-103558.jpg](https://wiki.bambulab.com/x1/maintenance/replace-chamber-camera/20251119-103558.jpg)
+
+软硅胶 ：用于涂抹在接头连接器，防止线缆连接松动。
+
+![图片](https://wiki.bambulab.com/x1/maintenance/replace-the-chamber-led/silicone_glue.jpg)
+
+仅供参考
+
+### 视频 - 更换内置摄像头
+
+### 拆除内置摄像头的步骤
+
+1. 拆下玻璃顶板。
+2. 打开打印机左上角的小门。
+3. 轻轻地松开视频中所示的4针电缆的连接。
+4. 顺着槽位拆下电缆。
+5. 将摄像头向右滑动（你会听到它释放时的咔嚓声），拆下摄像头。
+
+> 箭头所示位置可能有一小滴胶水。如果按照上方视频无法轻松取下相机，建议用吹风机加热胶水使其软化后再尝试取下。
+>
+>
+>
+> ![20251119-103558.jpg](https://wiki.bambulab.com/x1/maintenance/replace-chamber-camera/20251119-103558.jpg)
+
+### 安装内置摄像头的步骤
+
+1. 拆下玻璃顶板。
+2. 打开打印机左上角的小门。
+3. 将摄像头向左滑动（你会听到它锁住时的咔嚓声）。
+4. 把电缆塞进固定槽中。
+5. 连接视频中所示的4针电缆。
+6. 关闭打印机左上方的小门。
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

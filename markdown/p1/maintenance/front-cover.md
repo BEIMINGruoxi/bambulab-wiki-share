@@ -1,0 +1,90 @@
+---
+title: P1P 前面盖
+url: https://wiki.bambulab.com/zh/p1/maintenance/front-cover
+category: P1 系列 > P1 系列机器维护
+updated: 2026-08-28T06:19:11.025Z
+---
+
+### 物料名称
+
+前面盖
+
+![图片](https://wiki.bambulab.com/p1/maintenance/front-cover/front_cover.jpg)
+
+### 适用打印机型号
+
+P1P
+
+### 何时更换
+
+前面盖变形时，需更换。
+
+### 所需要工具和材料
+
+- H2.0 内六角扳手
+- 镊子
+
+### 安全提示
+
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生屏幕误触或电路短路从而引起额外的电子设备损坏和安全隐患。
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 移除旧的前面盖
+
+#### 第 1 步 - 移除屏幕
+
+关闭打印机电源，并移除 SD 卡。参考 [屏幕组件](https://wiki.bambulab.com/zh/p1/maintenance/screen) 中的相关内容，先拆除屏幕。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/front-cover/display_removed.jpg)
+
+#### 第 2 步 - 移除 3 颗螺丝
+
+移除 2 颗细牙螺丝和 1 颗粗牙螺丝。
+
+![3_screws_for_front_panel_cover.png](https://wiki.bambulab.com/p1/3_screws_for_front_panel_cover.png)
+
+#### 第 3 步 - 取下前面盖
+
+将前面盖从打印机上松开后，使用镊子取下 WIFI 天线，再取下前面盖。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/front-cover/deattach_the_wifi.jpg)
+
+### 安装新的前面盖
+
+#### 第 1 步 - 粘接 WIFI 天线
+
+将 WIFI 天线粘接到前面盖上，并将多余的线缆塞回打印机横梁内。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/front-cover/attach_the_wifi.jpg)
+
+#### 第 2 步 - 安装前面盖
+
+将前面盖安装到打印机上。
+
+> 注意： 注意右侧的卡扣位，屏幕连接线缆需要穿出过线孔。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/front-cover/install_the_front_cover.jpg)
+
+#### 第 3 步 - 锁入螺丝固定
+
+锁入 3 颗螺丝以固定前面盖，其中前面的 2 颗为细牙螺丝，后面的 1 颗为粗牙螺丝。
+
+![3_screws_for_front_panel_cover.png](https://wiki.bambulab.com/p1/3_screws_for_front_panel_cover.png)
+
+#### 第 4 步 - 安装屏幕
+
+参考 [屏幕组件](https://wiki.bambulab.com/zh/p1/maintenance/screen) 中的相关内容，安装屏幕。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/front-cover/display_installed.jpg)
+
+### 功能验证
+
+启动打印机，确认屏幕能够正常显示，且按键可以正常响应，即表示安装完成。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/screen/screen_ok.jpg)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

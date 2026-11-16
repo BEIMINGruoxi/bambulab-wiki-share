@@ -1,0 +1,65 @@
+---
+title: 打印选项
+url: https://wiki.bambulab.com/zh/studio-handy/print-options
+category: Bambu Suite, Bambu Studio & Bambu Handy > 打印选项
+updated: 2026-08-28T08:28:31.761Z
+---
+
+所有打印机均配备了打印选项，用户可以根据自己的需求，自行选择打印中需要启用的功能。打印选项可在打印机的显示屏或者 Bambu Studio 的设备页面中设置。 请注意，由于不同机型支持的功能不一样，所以打印选项页面也各不相同。请以实际界面显示的选项为准。
+
+![print_options_a1_series_cn.png](https://wiki.bambulab.com/software/common/print_options_a1_series_cn.png)
+
+![print_options_cn.png](https://wiki.bambulab.com/software/common/print_options_cn.png)
+
+### 启用打印板位置检测
+
+检测打印板的定位标记。如果标记不在预定义范围内时，或者打印板与切片文件中选择的不一致，则打印机将停止打印。避免用户在打印前忘记放置打印板或者放了错误类型的打印板。由于 X1 系列和 A1 系列打印机的检测原理不同，X1 系列能检测未放打印板和放错打印板，A1 系列只能检测未放打印板。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 打印板定位标记 |
+| 〔no_plate_cn.png〕 | 未放打印板 |
+| 〔图片〕 | 放错打印板 |
+
+### 自动从丢步中恢复
+
+当电机在工作过程中检测到位置偏移（即丢步）时，X、Y 和 Z 轴将会重新回中进行定位，然后回到丢步前的位置重新执行未被执行的 G code，保证打印质量。
+
+注意：如果您使用接近机器上限的加速度，建议关闭丢步自动恢复功能。因为在高加速度下，丢步自动恢复功能可能会出现误识别。该功能是靠电机检测负载判断的，在高速运动中，可能会由于电机负载较大，没有丢步也可有可能被误识别为丢步了。
+
+> 支持在打印过程中修改此选项。
+
+### 支持提示音
+
+在开机、打印开始和打印结束时，打印机会发出提示音。
+
+### 缠料检测
+
+当检测到料线打结后，由于送料阻力过大，会触发相应的传感器，打印机便会自动暂停打印并弹出缠料的提醒。用户可以重新整理好料盘上的料线再继续打印，避免打印机出现“空打”的情况。关于缠料检测的更多介绍请参见 [此 wiki 页面](https://wiki.bambulab.com/zh/ams-lite/manual/filament-tangle-monitoring-intro) 。
+
+打印机空打示意：
+
+![图片](https://wiki.bambulab.com/n1/manual/air-printing-detection/%E7%A9%BA%E6%89%93%E7%A4%BA%E6%84%8F.gif)
+
+### 启用打印过程的 AI 监控
+
+在打印过程中实现 [炒面检测](https://wiki.bambulab.com/zh/knowledge-sharing/Spaghetti_detection) 和废料槽堆积检测。灵敏度有低中高 3 个选项，灵敏度越高，更容易检测到小的缺陷，但同时可能也会增加暂停次数。
+
+> 支持在打印过程中修改此选项。
+
+- 废料堆积
+  ![图片](https://wiki.bambulab.com/x1/troubleshooting/hmscode/microlidar/470px-92760_spaghetti_pass-error_box.jpg)
+- 炒面检测
+  ![图片](https://wiki.bambulab.com/spg_error0.jpg)
+
+### 首层扫描
+
+打印完首层后，自动检测首层的打印质量，如有异常会发出警告。
+
+![first_layer_inspection_cn.png](https://wiki.bambulab.com/software/common/first_layer_inspection_cn.png)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

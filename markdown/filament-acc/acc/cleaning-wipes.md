@@ -1,0 +1,85 @@
+---
+title: 清洁湿巾
+url: https://wiki.bambulab.com/zh/filament-acc/acc/cleaning-wipes
+category: 耗材 > 配件
+updated: 2026-08-28T08:46:21.808Z
+---
+
+### 清洁湿巾
+
+拓竹清洁湿巾是 3D 打印机专用的一次性清洁用品，主要用于各型号打印机的定期清洁与维护，可满足清洁、除尘、去污、消毒需求。主要成分为无纺布、水、乙醇、表面活性剂、异构多元醇等。
+
+![cleaning_wipes](https://wiki.bambulab.com/filament-acc/acc/cleaning-wipes/cleaning_wipes.png)
+
+### 何时使用
+
+如果长时间不清理打印机的关键部件，污垢容易堆积，易造成机械磨损或其他潜在故障，这不仅会影响各类智能视觉检测和传感器检测的正常运行，还会导致打印机无法保持高精度、高稳定性的工作状态。因此，建议定期使用拓竹清洁湿巾，擦拭打印机的特定部件。
+
+### 适用范围
+
+适用于清洁 3D 打印机的 表面、实况摄像头、打印板、风扇、线轨、丝杆、光杆 等需要定期清理维护的部位，以及使用 H2 系列打印机进行 激光或切割雕刻后的残留脏污 。
+
+> 注意： 拓竹清洁湿巾仅适用于机器清洁，请勿使其接触眼睛、食物、厨房用具等。
+
+### 使用步骤
+
+> 注意： 为保障安全、方便操作，请在清洁前先断开打印机电源。此外，建议佩戴洁净手套，可避免手指油脂二次污染，或敏感皮肤出现不适。
+
+步骤1. 取出湿巾，将湿巾折叠为合适大小。
+
+![fold_wipe.jpg](https://wiki.bambulab.com/filament-acc/acc/cleaning-wipes/fold_wipe.jpg)
+
+步骤2. 在打印机需要清洁的部位，沿单一方向匀速擦拭，每擦一道翻转湿巾，使用洁净面，避免污染物回带。
+
+![wipe_at_a_steady_speed.webp](https://wiki.bambulab.com/filament-acc/acc/cleaning-wipes/wipe_at_a_steady_speed.webp)
+
+步骤3. 若清洁位置为打印机的导轨与线轨，清洁后需要补涂润滑脂或润滑油。
+
+> 注意： 请勿在碳杆上涂抹润滑油或润滑脂。
+
+![apply_lubricant_grease.webp](https://wiki.bambulab.com/filament-acc/acc/cleaning-wipes/apply_lubricant_grease.webp)
+
+### 注意事项
+
+- 在使用清洁湿巾擦拭打印机的导轨与线轨后，请务必 补充润滑脂或润滑油 。
+  - 注意 ：请勿在 碳杆 上涂抹润滑油或润滑脂。
+- 如果您的皮肤易干燥或对化学物质敏感，使用前请 戴好防护手套 。
+- 密封保存，放置于干燥、阴凉和通风处，避免阳光直射、潮湿炎热的环境，远离热源和火源。
+- 本湿巾为一次性用品，使用过的湿巾请勿重复使用。
+
+### 各机型清洁指南
+
+请根据您的机型参考对应的清洁指南。
+
+#### H2 系列
+
+- [H2C 定期清洁维护建议](https://wiki.bambulab.com/zh/h2c/maintenance/period-maintenance)
+- [H2D 定期清洁维护建议](https://wiki.bambulab.com/zh/h2/maintenance/period-maintenance)
+- [H2S 定期维护清洁建议](https://wiki.bambulab.com/zh/h2s/maintenance/period-maintenance)
+- [10w 激光模组定期维护建议](https://wiki.bambulab.com/zh/h2/maintenance/laser-module)
+- [40w 激光模组定期维护建议](https://wiki.bambulab.com/zh/h2/maintenance/laser-module-40w)
+- [感应热端挂架维护指南](https://wiki.bambulab.com/zh/h2c/maintenance/induction-hotend-rack-maintenance)
+
+#### X 系列
+
+- [X2D 定期清洁维护建议](https://wiki.bambulab.com/zh/x2d/maintenance/periodic-maintenance)
+- [X1 系列打印机定期维护建议](https://wiki.bambulab.com/zh/x1/maintenance/basic-maintenance)
+- [P2S/X2D XYZ 轴清洁润滑](https://wiki.bambulab.com/zh/p2s/maintenance/lubricate-x-y-z-axis)
+
+#### P 系列
+
+- [P1 系列打印机定期维护建议](https://wiki.bambulab.com/zh/p1/maintenance/p1p-maintenance)
+- [P2S 定期清洁维护建议](https://wiki.bambulab.com/zh/p2s/maintenance/period-maintenance)
+- [P2S/X2D XYZ 轴清洁润滑](https://wiki.bambulab.com/zh/p2s/maintenance/lubricate-x-y-z-axis)
+
+#### A 系列
+
+- [A1 产品维护与保养](https://wiki.bambulab.com/zh/a1/maintenance/basic-maintenance)
+- [A1 mini 产品维护与保养](https://wiki.bambulab.com/zh/a1-mini/maintenance/period-maintenance)
+- [A2L 定期维护建议](https://wiki.bambulab.com/en/a2l/maintenance/period-maintenance)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

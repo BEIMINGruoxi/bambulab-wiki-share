@@ -1,0 +1,290 @@
+---
+title: X2D 主挤出机堵塞清洁维护
+url: https://wiki.bambulab.com/zh/x2d/maintenance/extruder-cleaning-guide
+category: X2D > 维护保养
+updated: 2026-08-28T08:43:46.550Z
+---
+
+### 一、概述
+
+挤出机堵塞通常由热蠕变引发（ [什么是热蠕变？ | Bambu Lab Wiki](https://wiki.bambulab.com/zh/filament-acc/filament/heat-creep) ）。热蠕变具体指：热端的热量向上传导，或设备舱内温度过高，导致本应处于低温状态的挤出机区域温升异常，耗材在进入熔融区前提前软化、膨胀，最终堵塞在挤出机内部；该故障会直接造成打印机无法正常挤出耗材。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/028.jpg)
+
+本文将针对热蠕变引发的挤出机堵塞问题，详细介绍对应的清理方法。
+
+### 二、排障思路
+
+挤出机堵塞的核心原因是耗材因热蠕变受热膨胀，卡死在挤出齿轮处，此时打印机无法完成自动进料和退料操作。解决该问题的逻辑为： 先切断耗材，再拆解挤出机完成内部清堵 ，具体步骤如下：
+
+1. 切断耗材： 分别切断挤出机顶部（与 AMS / 外挂料盘连接）和底部（与热端连接）的耗材，方便取出挤出机组件。
+2. 取出挤出机： 耗材堵塞位置通常在挤出机内部齿轮，需要拆解挤出机进行清理。
+3. 清理内部残留： 拆开挤出机齿轮，取出主动轮与从动轮。使用镊子，将卡在齿轮上 挤压变形的耗材 取出并清理碎屑。
+4. 组装验证： 将挤出机重新组装完成后装回工具头，执行进料测试，验证堵塞是否疏通。
+
+### 三、所需工具和材料
+
+- H2.0 螺丝刀
+- H1.5 螺丝刀
+- 剪钳
+- 尖嘴钳
+
+> 重要提醒 ！
+>
+>
+>
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生电路短路从而引起额外的电子设备损坏和安全隐患。
+>
+>
+>
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+
+### 四、挤出机堵塞清理步骤
+
+#### 1. 拆卸工具头前盖
+
+打开工具头前盖，按压连接器锁扣后拔出连接插头，取下工具头前盖组件。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/041.jpg)
+
+> 部分情况下，耗材可能卡在切刀位置；可以先尝试先打开热端盖，对耗材位置进行初步检查，如果耗材卡在切刀位置，可以参考 [X2D 切料组件更换指南](https://wiki.bambulab.com/zh/x2d/maintenance/replace-filament-cutter) 取出切刀清理堵塞耗材。
+>
+>
+> ![qiedao.jpg](https://public-cdn.bblmw.com/wiki/new/x2d/filament-sensor-test/qiedao.jpg)
+
+#### 2. 切断热端与挤出机之间的耗材
+
+手动推动工具头至尾部的切刀顶杆，向后按压工具头，确保 热端与挤出机之间的耗材被完全切断 。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/043.webp)
+
+随后移除左右热端组件，详细操作步骤请参考： [X2D热端&硅胶套更换指南](https://wiki.bambulab.com/zh/x2d/maintenance/replace-hotend-and-silicone-sock) 。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/034.jpg)
+
+#### 3. 拔出工具头进料管
+
+回到工具头处，按压气动接头，尝试拔出工具头进料管—— 无需完全拔出 ，只需轻微拔开缝隙，留出足够空间以便剪断耗材即可。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+> 注意： 若此时无法顺利拔出工具头进料管，请先松开打印机背部的进料管，从背部拉出一小段耗材后，使用剪钳将其剪断，以释放管内张力。
+>
+>
+>
+> | 〔图片〕 | 〔图片〕 |
+> | --- | --- |
+
+完成上述操作后，再次尝试拔出工具头进料管，并使用剪钳将外露耗材剪断，拔出中间断料。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/055.webp)
+
+接下来需取下挤出机，以清理内部堵塞的耗材。
+
+#### 4. 移除工具头外壳
+
+由于挤出机拆卸时会与中框产生干涉，需提前移除工具头中框。在此之前，需先移除右侧进料管以避免干涉：
+
+1. 向右拨动堵嘴组件的拨杆，使右霍尔检测板的气动接头完全露出；
+
+2. 使用扳手逆时针拧松气动接头，取出右侧进料管。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/039.png)
+
+使用 H1.5 内六角扳手移除工具头左右两侧共 8 颗固定螺丝 ，轻轻晃动工具头后盖使卡扣松动，然后取下后盖。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/036.png)
+
+移除中框时，先从底部扣开，松出左侧后，将工具头中框从拖链支架处脱出，完整取下中框。详细步骤请参考： [更换 X2D 的工具头外壳](https://wiki.bambulab.com/zh/x2d/maintenance/replace-toolhead-housing)
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/053.webp)
+
+#### 5. 取下挤出机
+
+移除 左侧 切刀拨杆固定螺丝，将拨杆向外旋转，避免影响后续操作；
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+以相同步骤卸下 右侧 固定螺丝，将拨杆向外拨开；
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+使用 H1.5 螺丝刀移除两颗支架固定螺丝，取下支架，并撕开顶部泡棉；
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+断开顶部 六根排线 连接。
+
+> ⚠️ 注意： 第 1、3、4 号排线需沿垂直 PCB 板方向缓慢拔开，切勿强行拽拉。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+将线缆拨至两侧，避免影响后续挤出机的拆装；
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/059.jpg)
+
+移除左热端风扇的两颗固定螺丝（顶部螺丝使用 H2.0 螺丝刀，底部黑色螺丝使用 H1.5 螺丝刀）；
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/013.jpg)
+
+松开风扇后，使用 H2.0 螺丝刀移除挤出机的 三颗固定螺丝 ；
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/014.jpg)
+
+缓慢取下挤出机组件。
+
+> ⚠️ 注意： 取下挤出机时切勿用力过猛，注意避免拉扯顶部霍尔排线及右侧线缆。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/054.webp)
+
+#### 6. 清理内部堵塞耗材
+
+移除挤出机顶部张紧螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/022.png)
+
+从挤出机上取下 黄色挤出主动轮 。当耗材卡在主动轮与从动轮之间时，可能无法从正面直接取出主动轮。若遇此情况，请从 主动轮背面 轻敲轴心将其顶出。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+取出压块，注意压块内部有 一个弹簧和垫片 ，请妥善保管，避免丢失；
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+取出从动齿轮。若内部耗材卡住导致从动齿轮难以取出，可使用钳子夹出；
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/044.webp)
+
+拆开后，使用钳子或镊子清理膨胀变形的堵塞耗材；
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/004.jpg)
+
+若耗材较难取出，可进一步拆下出料口压块和切刀，最终取出耗材。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 7. 组装挤出机
+
+安装从动齿轮， 如下图所示，将从动齿轮穿过转轴后放入挤出机前盖。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/021.png)
+
+> 安装齿轮前，可在以下两个位置涂抹润滑脂做养护处理，能有效减少齿轮磨损，保障其运行顺畅。
+>
+>
+> ![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/037.png)
+
+将弹簧和垫片放入挤出机从动轮压块中。注意垫片方向，凹面朝上。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/048.webp)
+
+将压块放入挤出机内，再放入黄色主动齿轮。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+使用H2.0螺丝刀锁紧张紧螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/018.jpg)
+
+安装左侧切刀刀片，锁紧热端盖固定螺丝。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 8. 将挤出机安装至工具头
+
+向右拨动工具头下方堵嘴组件的拨杆，使堵嘴片位于右热端下方。
+
+> ⚠️ 安装前请注意： 安装挤出机前，需确认堵嘴组件位于 右热端下方 。若位置不正确，将导致安装完成后右侧热端无法正常升降。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/058.webp)
+
+将右侧霍尔组件安装至挤出机内，切刀和霍尔板一侧朝右。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/050.webp)
+
+将整个挤出机组件安装至工具头上，安装时可用手托住右侧霍尔组件，防止其脱出。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/049.webp)
+
+锁紧 3 颗挤出机固定螺丝。
+
+> 注意： 锁紧螺丝前，请确认挤出机已完全安装到位。若螺丝较难锁紧，通常是由于挤出机未安装到位所致。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/015.jpg)
+
+整理右侧涡流线圈及加热组件线缆，将其归入理线扣内。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/032.jpg)
+
+锁紧两颗风扇固定螺丝（顶部银色螺丝使用 H2.0 螺丝刀，底部黑色螺丝使用 H1.5 螺丝刀）
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/033.jpg)
+
+依次连接顶部 六根排线 ，连接顺序如下：
+
+1. 左侧涡流线圈
+2. 左侧霍尔传感器
+3. 右侧霍尔传感器
+4. 右侧涡流线圈
+5. 左热端加热组件
+6. 右热端加热组件
+
+> ⚠️ 连接完成后，请将顶部泡棉粘回原位
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+安装加热组件线缆固定支架，使用 H1.5 螺丝刀锁紧两颗固定螺丝。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/009.jpg)
+
+将拨杆中间的孔对准中间的螺丝定位柱，安装到位。同时确认两侧切料组件刀柄均已嵌入切料拨杆组件的方形缺口内。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 9. 安装工具外壳
+
+首先需要安装工具头中框，完成再安装后壳。详细外壳安装步骤可参考： [更换 X2D 的工具头外壳](https://wiki.bambulab.com/zh/x2d/maintenance/replace-toolhead-housing)
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/046.webp)
+
+#### 10. 初步验证
+
+外壳安装完成后，进行初步疏通验证：将耗材插入左侧热端，点击左侧挤出机向下挤出箭头，若观察到耗材能正常挤出，说明挤出机堵塞已疏通。
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+#### 11. 安装热端组件
+
+安装左右两侧热端及热端硅胶套，安装热端时需确认卡扣卡紧到位；详细操作步骤请参考： [X2D热端&硅胶套更换指南](https://wiki.bambulab.com/zh/x2d/maintenance/replace-hotend-and-silicone-sock)
+
+| 〔图片〕 | 〔图片〕 |
+| --- | --- |
+
+连接工具头前盖电缆接头，合上工具头前盖。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/040.jpg)
+
+### 五、如何验证
+
+启动打印机，执行一次完整的上料和退料操作。若喷嘴可正常挤出耗材且无异响，耗材能顺畅进出，即说明挤出机堵塞已成功疏通；若确认耗材可正常穿过挤出机，但喷嘴仍无法正常出料，可参考 [X2D热端堵塞清理指南](https://wiki.bambulab.com/zh/p2s/maintenance/cold-pull-maintenance-hotend) 对喷嘴进行进行疏通清理。
+
+![图片](https://public-cdn.bblmw.com/wiki/new/x2d/toolheadhousing/extruder-cleaning-guide/003.jpg)
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！

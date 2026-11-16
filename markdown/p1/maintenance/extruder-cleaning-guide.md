@@ -1,0 +1,223 @@
+---
+title: 挤出机维护指南：P1系列挤出机维护
+url: https://wiki.bambulab.com/zh/p1/maintenance/extruder-cleaning-guide
+category: P1 系列 > P1 系列机器维护
+updated: 2026-08-28T08:44:05.056Z
+---
+
+在本指南中，我们将提供保养挤出机相关组件的常用方法
+保持挤出机内部的清洁和润滑良好将有效延长挤出机组件的使用寿命，并能确保打印质量一致。
+
+### 何时需要维护？
+
+挤出机应定期进行维护，挤出机组件对打印起到非常重要的作用。
+随着使用时间的积累，耗材碎屑、灰尘和其他进入挤出机中的颗粒会在挤出机内部逐渐积累，严重时可能会对打印质量造成影响。
+
+以下图为例，该挤出机已经使用了约400小时。
+
+![图片](https://wiki.bambulab.com/x1/maintenance/extruder-maintenance/extruder_dust_and_debris.jpg)
+
+![图片](https://wiki.bambulab.com/x1/maintenance/extruder-maintenance/extruder_gear_debris.jpeg)
+
+挤出机脏污引起的常见问题
+
+- 打印纹理不一致
+- 耗材堵塞
+- 部件过早磨损
+
+在某些情况下，挤出机齿轮严重损坏，无法修复， [我们建议购买新的挤出机齿轮套件](https://detail.tmall.com/item.htm?abbucket=7&id=707079850354&rn=57fda061eb4040a3232445d781bb4e52&spm=a1z10.5-b-s.w4011-25176969463.81.47316f97KJqH0Q&skuId=5142490143020) ，以便快速更换。
+
+### 所需工具和材料
+
+- H2.0 六角扳手
+- H1.5 六角扳手
+- 润滑脂
+- 此维护预计需要15分钟时间
+
+### 安全提示
+
+> 重要提醒 ！
+>
+>
+>
+> 在对打印机及其电子设备（包括工具头线缆）进行任何维护工作之前，请关闭打印机电源并断开电源连接，以避免发生电路短路从而引起额外的电子设备损坏和安全隐患。
+>
+>
+>
+> 在您对打印机进行维护或故障排查时，请先确认热端和热床的温度，避免在高温状态下操作，如果必须在高温状态下操作，请佩戴好隔热手套，以确保安全有效地执行维护工作。
+>
+>
+>
+> 如果您对本指南有任何疑问，请 [点击这里提交工单](https://bambulab.cn/zh/sign-in?to=%2Fmy%2Fsupport%2Ftickets) ，我们将及时回复并为您提供所需的帮助。
+
+### 挤出机维护步骤
+
+#### 1. 从工具头中移除挤出机
+
+揭开工具头前盖，断开工具头风扇连接器，移除前盖。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+小心地断开挤出机和热端的端子，如下图。
+注意：断开挤出机霍尔开关板组件的排线端子时（标示 1 的排线端子）请务必小心、轻柔的操作，避免损坏此排线。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/p1_extruder_removal_step_1.jpeg)
+
+接下来，按住切刀刀柄，同时松开固定刀柄的螺丝，松开螺丝后，缓慢松开切刀刀柄，使刀柄自然下垂。
+
+注意：拆卸螺丝时请确保螺丝刀垂直于螺丝头平面插入，确认刀头完全插入螺丝头后轻轻转动螺丝刀拧松该螺丝，避免使用螺丝刀时操作不当导致螺丝头滑牙。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/release_the_lever.jpeg)
+
+松开切刀刀柄后，卸下固定挤出机的 3 颗螺丝，然后用 H1.5 六角扳手轻轻拧松标识 4 和 5 的螺丝以松开 PTFE 管底座。
+然后，通过向下按压 PTFE 管底座以压下挤出机上的气动接头，气动接头完全压下后，您可以拔出 PTFE 管。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/remove_the_extruder_screws.jpeg)
+
+现在您可以从工具头移除挤出机组件了。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/p1_extruder.jpg)
+
+#### 2.拆卸挤出机
+
+取下挤出机后，需要拆卸挤出机上的固定螺丝。
+拧下图示 1 到 4的四颗螺丝。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/disassemble_the_p1_series_extruder.jpeg)
+
+螺丝5用于张紧挤出机齿轮。拧松该螺丝以释放弹簧的张力，然后您可以将黄色齿轮向上轻轻拔出，另一侧的从动齿轮也采用同样的方法拆出。
+
+若大齿轮无法取出，请参考该步骤。
+
+拧出一点侧边的压紧螺丝。
+
+![pixpin_2026-08-26_18-09-53.jpg](https://wiki.bambulab.com/x1/troubleshooting/extruder-clog/pixpin_2026-08-26_18-09-53.jpg)
+
+将挤出机放在料盘中心孔上。
+
+![pixpin_2026-08-26_18-10-05.jpg](https://wiki.bambulab.com/x1/troubleshooting/extruder-clog/pixpin_2026-08-26_18-10-05.jpg)
+
+使用螺丝刀对准大齿轮的中轴。
+
+![pixpin_2026-08-26_18-09-43.jpg](https://wiki.bambulab.com/x1/troubleshooting/extruder-clog/pixpin_2026-08-26_18-09-43.jpg)
+
+轻轻按压或用其他工具敲击，取下齿轮。
+
+> 敲击过程请观察螺丝刀，避免接触轴承，轴承受损可能导致挤出缺陷。
+>
+>
+> ![pixpin_2026-08-26_18-09-19.jpg](https://wiki.bambulab.com/x1/troubleshooting/extruder-clog/pixpin_2026-08-26_18-09-19.jpg)
+
+![pixpin_2026-08-26_18-09-33.jpg](https://wiki.bambulab.com/x1/troubleshooting/extruder-clog/pixpin_2026-08-26_18-09-33.jpg)
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/%E6%8C%A4%E5%87%BA%E6%9C%BA4%E9%83%A8%E5%88%86%E3%80%81.jpg)
+
+> 注意：如果拆齿轮时将轴承丢失，将无法正常挤出。
+>
+>
+>
+> |  |  |
+> | --- | --- |
+> | 〔图片〕 | 〔图片〕 |
+
+#### 3.清除挤出机外壳和挤出机齿轮上的碎屑
+
+如下图所示，挤出机内部有很多灰尘。在重新组装挤出机之前，请确保所有灰尘都已清洁干净。
+您可以使用软毛刷和气吹对挤出机内部进行清洁。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/extruder_dust_and_debris.jpg)
+
+#### 4. 挤出机润滑
+
+在重新组装挤出机之前，可以对齿轮进行一些润滑。
+在挤出机齿轮的侧面和转轴上涂抹少量润滑脂，如下图所示。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/add_lubricant_on_extruder.jpeg)
+
+接下来，在挤出机齿轮上涂上一点润滑脂。
+
+确保涂抹均匀，在齿轮安装回挤出机之前需要擦去多余的部分。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/apply_oil_to_extruder_gear.jpg)
+
+最后，可以参照下图在齿轮轴部分周围涂上少量的润滑脂。
+
+![apply_lubricant_grease.jpg](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/apply_lubricant_grease.jpg)
+
+> 包装说明 ：拓竹润滑脂目前存在以下 2 种包装版本，仅包装外观不同，产品本身没有区别，均可使用。
+>
+>
+> ![lubricant_grease.jpg](https://wiki.bambulab.com/filament-acc/lubricant_grease_and_oil/official_grease_update.jpg)
+
+#### 5. 组装挤出机
+
+1. 安装齿轮和弹簧。
+
+|  |  |
+| --- | --- |
+| 〔installing_the_spring!.png〕 | 〔installing_the_spring.png〕 |
+
+1. 装回大齿轮。
+
+![yellow-gears.png](https://wiki.bambulab.com/x1/maintenance/extruder-clog/yellow-gears.png)
+
+1. 装上后盖并使用 H2.0 内六角扳手拧紧 4 颗螺丝。
+
+![screws.png](https://wiki.bambulab.com/x1/maintenance/extruder-clog/screws.png)
+
+1. 拧回张力螺丝，直至“咔嗒”声确认到位。
+
+![string-screw.png](https://wiki.bambulab.com/x1/maintenance/extruder-clog/string-screw.png)
+
+1. 用手转动大齿轮，检查其是否能正常旋转。
+
+![turning-screw.png](https://wiki.bambulab.com/x1/maintenance/extruder-clog/turning-screw.png)
+
+#### 6. 安装挤出机
+
+将挤出机安装回工具头，然后重新锁入 1、2、3 号螺丝以固定挤出机。
+然后，将PTFE管插入挤出机顶部，抬起PTFE管底座，并拧紧标有4、5的螺丝以固定PTFE料管底座。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/remove_the_extruder_screws.jpeg)
+
+接下来，按下下图所示复位切刀刀柄并轻轻拧紧刀柄上的固定螺丝。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/release_the_lever.jpeg)
+
+最后，将挤出机和热端的所有排线端子重新连接到接口板上。
+
+在此操作过程中，请格外小心，确保所有端子正确对齐后插入，部分端子可以在错误的状态下被按下，这会导致设备出现报错。
+
+![图片](https://wiki.bambulab.com/p1/maintenance/extruder-maintenance/p1_extruder_removal_step_1.jpeg)
+
+正确安装方式： 对齐后直接插入， 请勿错排安装 。
+
+![webp_(4).webp](https://wiki.bambulab.com/knowledge-sharing/printer-electronic-connectors-guide/webp_(4).webp)
+
+常见的错误安装：
+
+|  |  |
+| --- | --- |
+| 〔错误1.jpg〕 | 〔错误2.jpg〕 |
+
+将前盖风扇电缆连接到接口板上，合上前盖。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+### 设备校准
+
+启动打印机，完成一次手动上料和退料的操作，如果没有异常和报错，则说明挤出机已经正确的安装了。
+
+|  |  |
+| --- | --- |
+| 〔图片〕 | 〔图片〕 |
+
+### 结束语
+
+> 我们希望本指南能为您提供有用的信息，帮助您解决问题。
+> 如果本指南未解决您的问题， [请联系在线技术支持（服务时间 9:00-21:00）](https://support.bambulab.cn/liveChat/?from=5) ，我们随时准备为您解答疑问并提供帮助。
+> 如果您对本篇 Wiki 有任何建议或反馈，欢迎在评论区留言，感谢您的支持与关注！
